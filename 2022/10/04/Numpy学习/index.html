@@ -1,0 +1,207 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Numpy学习 | 森林巨骨</title><meta name="keywords" content="学习,Numpy"><meta name="author" content="Yuchen Ding"><meta name="copyright" content="Yuchen Ding"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Numpy应用Numerical Python是Python的一个拓展程序库，支持大量维度数组和矩阵运算。为开放的源代码并且由许多协作者共同维护开发，其运行速度很快。Numpy通常与：  Scipy（科学工程计算） Matplotlib（绘图）  一起使用 123from numpy import *#导入numpy库eye(4)#生成对角矩阵 Numpy的Ndarray对象基本形式如下：num">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Numpy学习">
+<meta property="og:url" content="https://theforestbone.github.io/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:site_name" content="森林巨骨">
+<meta property="og:description" content="Numpy应用Numerical Python是Python的一个拓展程序库，支持大量维度数组和矩阵运算。为开放的源代码并且由许多协作者共同维护开发，其运行速度很快。Numpy通常与：  Scipy（科学工程计算） Matplotlib（绘图）  一起使用 123from numpy import *#导入numpy库eye(4)#生成对角矩阵 Numpy的Ndarray对象基本形式如下：num">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://theforestbone.github.io/img/database.jpg">
+<meta property="article:published_time" content="2022-10-03T16:07:35.673Z">
+<meta property="article:modified_time" content="2022-09-16T11:35:04.882Z">
+<meta property="article:author" content="Yuchen Ding">
+<meta property="article:tag" content="学习">
+<meta property="article:tag" content="Numpy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://theforestbone.github.io/img/database.jpg"><link rel="shortcut icon" href="/img/sea_girl_title.jpg"><link rel="canonical" href="https://theforestbone.github.io/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Numpy学习',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-09-16 19:35:04'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/atom.xml" title="森林巨骨" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/sea_girl_title.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">28</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">16</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/database.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">森林巨骨</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 列表</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Numpy学习</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-10-03T16:07:35.673Z" title="发表于 2022-10-04 00:07:35">2022-10-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-09-16T11:35:04.882Z" title="更新于 2022-09-16 19:35:04">2022-09-16</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Numpy/">Numpy</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Numpy学习"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><span id="more"></span>
+<h1 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h1><h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>Numerical Python是Python的一个拓展程序库，支持大量维度数组和矩阵运算。为开放的源代码并且由许多协作者共同维护开发，其运行速度很快。<br>Numpy通常与：</p>
+<ul>
+<li>Scipy（科学工程计算）</li>
+<li>Matplotlib（绘图）</li>
+</ul>
+<p>一起使用</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">from numpy import *#导入numpy库</span><br><span class="line"></span><br><span class="line">eye(4)#生成对角矩阵</span><br></pre></td></tr></table></figure>
+<h2 id="Numpy的Ndarray对象"><a href="#Numpy的Ndarray对象" class="headerlink" title="Numpy的Ndarray对象"></a>Numpy的Ndarray对象</h2><p>基本形式如下：<br><strong>numpy.array(object, dtype = None, copy = True, order = None, subok = False, ndmin = 0)</strong><br>其中：</p>
+<ul>
+<li>object: 要进行操作的数组</li>
+<li>dtype: 元素的数据类型（后面会有介绍）</li>
+<li>copy: 对象是否复制</li>
+<li>order: 创建数组的样式，C为行方向，F为列方向，A为任意方向（默认）</li>
+<li>subok: 默认返回一个与基类类型一致的数组</li>
+<li>ndmin: 指定生成数组的最小维度</li>
+</ul>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>Numpy的数据类型较多，具体可以在<a target="_blank" rel="noopener" href="https://www.runoob.com/numpy/numpy-dtype.html">这里</a>找到</p>
+<h2 id="数据类型对象（dtype）"><a href="#数据类型对象（dtype）" class="headerlink" title="数据类型对象（dtype）"></a>数据类型对象（dtype）</h2><p>numpy.dtype描述了数据的以下方面：</p>
+<ul>
+<li>数据的类型（整数，浮点数）</li>
+<li>数据大小（用多少字节去存储）</li>
+<li>数据的字节顺序<br>等等<br>小端法：最小值存储在最小的地址。<br>大端法：最重要的字节存储在最小的地址。</li>
+</ul>
+<p>dtype对象使用如下语法：<br>numpy.dtype(object,align,copy)<br>关于其的详细用法我们可以通过如下例子来解释：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">dt = np.dtype([(&#x27;age&#x27;,np.int8)])#规定了一个数据类型对象，可以套用在其他Ndarray上。</span><br><span class="line"></span><br><span class="line">a = np.array([(10),(20),(30)],dtype = dt)</span><br><span class="line"></span><br><span class="line">print(a[&#x27;age&#x27;])</span><br><span class="line"></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>
+
+<p>结果为：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[10,20,30]</span><br><span class="line">[(10),(20),(30)]</span><br></pre></td></tr></table></figure>
+<p><em><strong>（其中的有无括号区别我也不清楚，此处存疑问老师）</strong></em><br>我们也可以用另一个例子来加深理解：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">student = np.dtype([(&#x27;name&#x27;,&#x27;S20&#x27;), (&#x27;age&#x27;, &#x27;i1&#x27;), (&#x27;marks&#x27;, &#x27;f4&#x27;)]) </span><br><span class="line"></span><br><span class="line">a = np.array([(&#x27;abc&#x27;, 21, 50),(&#x27;xyz&#x27;, 18, 75)], dtype = student) </span><br><span class="line"></span><br><span class="line">print(a[&#x27;name&#x27;].dtype)</span><br></pre></td></tr></table></figure>
+<p>可以看到，np.dtype将三种数据属性（名称和类型）对应到了np.array上，name对应一列，age对应一列，并分别规定了类型（int8对应i1，此类i2，i3,i4乘以8即可）等等</p>
+<h2 id="Numpy数据类型"><a href="#Numpy数据类型" class="headerlink" title="Numpy数据类型"></a>Numpy数据类型</h2><p>Numpy数组的维数称为秩（rank），秩就是轴的数量，即数组的维度，一维数组的秩为 1，二维数组的秩为 2。<br>在 NumPy中，每一个线性的数组称为是一个轴（axis），也就是维度（dimensions）。 </p>
+<ul>
+<li>axis=0，表示沿着第 0 轴进行操作，即对每一列进行操作。</li>
+<li>axis=1，表示沿着第1轴进行操作，即对每一行进行操作。</li>
+</ul>
+<p>一些比较重要的nadarray对象属性：<br>| 属性    | 说明  |<br>| :———: | :————: |<br>| ndarray.ndim    | 秩，即轴的数量或维度的数量|<br>| ndarray.shape |    数组的维度，对于矩阵，n行m列|<br>| ndarray.size |    数组元素的总个数，相当于.shape中 n*m 的值|<br>| ndarray.dtype |    ndarray 对象的元素类型|<br>| ndarray.itemsize    |ndarray 对象中每个元素的大小，以字节为单位|<br>| ndarray.flags    |ndarray 对象的内存信息|<br>| ndarray.real |    ndarray元素的实部|<br>| ndarray.imag |    ndarray 元素的虚部|<br>| ndarray.data |    包含实际数组元素的缓冲区，由于一般通过数组的索引获取元素，所以通常不需要使用这个属性。|</p>
+<p>我们引用实例：</p>
+<ul>
+<li>ndarray.ndim<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">a = np.arange(24)</span><br><span class="line"></span><br><span class="line">print(a.ndim)</span><br><span class="line"></span><br><span class="line">b = a.reshape(2,4,3) #调整其维度</span><br><span class="line"></span><br><span class="line">print(b.ndim)</span><br><span class="line"></span><br><span class="line">print(b)</span><br></pre></td></tr></table></figure>
+可自行运行，结果为两个4*3矩阵列表。</li>
+<li>ndarray.shape<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = np.array([[1,2,3],[4,5,6]])</span><br><span class="line"></span><br><span class="line">a.shape = (3,2)</span><br><span class="line"></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>
+其结果将2*3的矩阵转化为3*2</li>
+<li>ndarray.itemsize<br>ndarray.itemsize 以字节的形式返回数组中每一个元素的大小。<br>例如，一个元素类型为 float64 的数组 itemsize 属性值为 8(float64 占用 64 个 bits，每个字节长度为 8，所以 64/8，占用 8 个字节），又如，一个元素类型为 complex32 的数组 item 属性为 4（32/8）。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 数组的 dtype 为 float64（八个字节） </span><br><span class="line"></span><br><span class="line">y = np.array([1,2,3,4,5], dtype = np.float64)  </span><br><span class="line"></span><br><span class="line">print (y.itemsize)</span><br></pre></td></tr></table></figure>
+结果为8。</li>
+<li>ndarray.flags<br>ndarray.flags 返回 ndarray 对象的内存信息。<br>关于内存知识没有太大学习兴趣，在此不再赘述。<h2 id="Numpy创建数组"><a href="#Numpy创建数组" class="headerlink" title="Numpy创建数组"></a>Numpy创建数组</h2>ndarray 数组除了可以使用底层 ndarray 构造器来创建外，也可以通过以下几种方式来创建。</li>
+<li>numpy.empty<br>numpy.empty 方法用来创建一个指定形状（shape）、数据类型（dtype）且未初始化的数组：</li>
+</ul>
+<p><strong>numpy.empty(shape, dtype = float, order = ‘C’)</strong><br>order（c或者f）表示行优先或列优先。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x = np.empty([3,2], dtype = int) </span><br><span class="line"></span><br><span class="line">print (x)</span><br></pre></td></tr></table></figure>
+<p>结果的数组元素为随机值，未初始化。<br>同样的用法还有</p>
+<ul>
+<li>numpy.zeros</li>
+<li>numpy.ones</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://theforestbone.github.io">森林巨骨</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://theforestbone.github.io/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/">https://theforestbone.github.io/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://theforestbone.github.io" target="_blank">森林巨骨</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0/">学习</a><a class="post-meta__tags" href="/tags/Numpy/">Numpy</a></div><div class="post_share"><div class="social-share" data-image="/img/database.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/10/04/Pandas%E5%AD%A6%E4%B9%A0/"><img class="prev-cover" src="/img/database.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Pandas学习</div></div></a></div><div class="next-post pull-right"><a href="/2022/10/04/Pytorch%E5%AD%A6%E4%B9%A0/"><img class="next-cover" src="/img/digital.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Pytorch学习</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/" title="LeetCode例题"><img class="cover" src="/img/tifa.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-04</div><div class="title">LeetCode例题</div></div></a></div><div><a href="/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/" title="MySQL学习"><img class="cover" src="/img/database.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-04</div><div class="title">MySQL学习</div></div></a></div><div><a href="/2022/10/04/Pandas%E5%AD%A6%E4%B9%A0/" title="Pandas学习"><img class="cover" src="/img/database.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-04</div><div class="title">Pandas学习</div></div></a></div><div><a href="/2022/10/04/%E4%B8%AD%E5%A4%96%E6%95%99%E6%9D%90%E5%AF%B9%E6%AF%94/" title="中外教材对比"><img class="cover" src="/img/water.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-04</div><div class="title">中外教材对比</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/sea_girl_title.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Yuchen Ding</div><div class="author-info__description">天行健，君子以自强不息</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">29</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">28</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">16</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Numpy"><span class="toc-number">1.</span> <span class="toc-text">Numpy</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%94%E7%94%A8"><span class="toc-number">1.1.</span> <span class="toc-text">应用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Numpy%E7%9A%84Ndarray%E5%AF%B9%E8%B1%A1"><span class="toc-number">1.2.</span> <span class="toc-text">Numpy的Ndarray对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.3.</span> <span class="toc-text">数据类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%AF%B9%E8%B1%A1%EF%BC%88dtype%EF%BC%89"><span class="toc-number">1.4.</span> <span class="toc-text">数据类型对象（dtype）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Numpy%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.5.</span> <span class="toc-text">Numpy数据类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Numpy%E5%88%9B%E5%BB%BA%E6%95%B0%E7%BB%84"><span class="toc-number">1.6.</span> <span class="toc-text">Numpy创建数组</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/" title="6-3日记"><img src="/img/interior.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="6-3日记"/></a><div class="content"><a class="title" href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/" title="6-3日记">6-3日记</a><time datetime="2022-10-03T16:07:35.720Z" title="发表于 2022-10-04 00:07:35">2022-10-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/" title="6-4日记"><img src="/img/interior.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="6-4日记"/></a><div class="content"><a class="title" href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/" title="6-4日记">6-4日记</a><time datetime="2022-10-03T16:07:35.720Z" title="发表于 2022-10-04 00:07:35">2022-10-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/04/Coding%E4%B8%8D%E6%94%AF%E6%8C%81%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/" title="关于Coding不支持静态网页托管的态度"><img src="/img/interior.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于Coding不支持静态网页托管的态度"/></a><div class="content"><a class="title" href="/2022/10/04/Coding%E4%B8%8D%E6%94%AF%E6%8C%81%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/" title="关于Coding不支持静态网页托管的态度">关于Coding不支持静态网页托管的态度</a><time datetime="2022-10-03T16:07:35.720Z" title="发表于 2022-10-04 00:07:35">2022-10-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/04/Python%E7%88%AC%E8%99%AB%E7%BB%83%E4%B9%A0/" title="Python爬虫练习"><img src="/img/interior.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Python爬虫练习"/></a><div class="content"><a class="title" href="/2022/10/04/Python%E7%88%AC%E8%99%AB%E7%BB%83%E4%B9%A0/" title="Python爬虫练习">Python爬虫练习</a><time datetime="2022-10-03T16:07:35.720Z" title="发表于 2022-10-04 00:07:35">2022-10-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/10/04/6-5%E9%9A%8F%E6%83%B3/" title="6-5日记"><img src="/img/interior.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="6-5日记"/></a><div class="content"><a class="title" href="/2022/10/04/6-5%E9%9A%8F%E6%83%B3/" title="6-5日记">6-5日记</a><time datetime="2022-10-03T16:07:35.705Z" title="发表于 2022-10-04 00:07:35">2022-10-04</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Yuchen Ding</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script defer="defer" id="fluttering_ribbon" mobile="true" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
