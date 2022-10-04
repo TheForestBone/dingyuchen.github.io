@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>6-3日记</title>
-      <link href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/"/>
-      <url>/2022/10/04/6-3%E9%9A%8F%E6%83%B3/</url>
+      <title>6-4日记</title>
+      <link href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
+      <url>/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</url>
       
-        <content type="html"><![CDATA[<p>越深入了解Python，越感受到Excel的优越之处。<br>真正的牛逼不是你能写出多眼花缭乱的代码，而是你能做出什么东西。<br>或许我该找时间好好学习一下Excel？</p>]]></content>
+        <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的<a href="https://io-oi.me/">博客</a>，被其精美且小清新范的页面深深吸引了。<br>今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。<br>由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的读博意愿。</p>]]></content>
       
       
       <categories>
@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>6-4日记</title>
-      <link href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
-      <url>/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</url>
+      <title>6-3日记</title>
+      <link href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/"/>
+      <url>/2022/10/04/6-3%E9%9A%8F%E6%83%B3/</url>
       
-        <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的<a href="https://io-oi.me/">博客</a>，被其精美且小清新范的页面深深吸引了。<br>今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。<br>由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的读博意愿。</p>]]></content>
+        <content type="html"><![CDATA[<p>越深入了解Python，越感受到Excel的优越之处。<br>真正的牛逼不是你能写出多眼花缭乱的代码，而是你能做出什么东西。<br>或许我该找时间好好学习一下Excel？</p>]]></content>
       
       
       <categories>
@@ -135,11 +135,11 @@
     
     
     <entry>
-      <title>Markdown的相对目录引用</title>
-      <link href="/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/"/>
-      <url>/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/</url>
+      <title>Markdown的一些注解</title>
+      <link href="/2022/10/04/Markdown%E7%9A%84html%E6%B3%A8%E8%A7%A3/"/>
+      <url>/2022/10/04/Markdown%E7%9A%84html%E6%B3%A8%E8%A7%A3/</url>
       
-        <content type="html"><![CDATA[<p>Markdown的绝对目录引用可以去图床，各类图床可以在知乎上找到。分为付费和免费两种。<br>Markdown的相对目录是从你引用图片的目录开始，按级别搜索，往上一级搜索是.&#x2F;，往下一级搜索是直接写&#x2F;filename(你的文件夹名)。</p>]]></content>
+        <content type="html"><![CDATA[<p>Markdown中对html的引用(html不参与编译过程，只是单纯的展示)：<br>例如对于&lt;li&gt;..&lt;li&gt;进行展示，只需要对源文件中的&lt;前加上\即可。因为Markdown文件对于&gt;没有特殊歧义。<br>如果要对大量html文件进行展示，在vscode中进行ctrl+F，ctrl+alt+enter全部查找和替换即可。<br>最后效果如下：</p><blockquote><p>&lt;html&gt;..&lt;&#x2F;html&gt; 是网页的根元素<br>&lt;head&gt;..&lt;&#x2F;head&gt; 元素包含了文档的元(meta)数据</p></blockquote>]]></content>
       
       
       <categories>
@@ -160,11 +160,11 @@
     
     
     <entry>
-      <title>Markdown的一些注解</title>
-      <link href="/2022/10/04/Markdown%E7%9A%84html%E6%B3%A8%E8%A7%A3/"/>
-      <url>/2022/10/04/Markdown%E7%9A%84html%E6%B3%A8%E8%A7%A3/</url>
+      <title>Markdown的相对目录引用</title>
+      <link href="/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/"/>
+      <url>/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/</url>
       
-        <content type="html"><![CDATA[<p>Markdown中对html的引用(html不参与编译过程，只是单纯的展示)：<br>例如对于&lt;li&gt;..&lt;li&gt;进行展示，只需要对源文件中的&lt;前加上\即可。因为Markdown文件对于&gt;没有特殊歧义。<br>如果要对大量html文件进行展示，在vscode中进行ctrl+F，ctrl+alt+enter全部查找和替换即可。<br>最后效果如下：</p><blockquote><p>&lt;html&gt;..&lt;&#x2F;html&gt; 是网页的根元素<br>&lt;head&gt;..&lt;&#x2F;head&gt; 元素包含了文档的元(meta)数据</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>Markdown的绝对目录引用可以去图床，各类图床可以在知乎上找到。分为付费和免费两种。<br>Markdown的相对目录是从你引用图片的目录开始，按级别搜索，往上一级搜索是.&#x2F;，往下一级搜索是直接写&#x2F;filename(你的文件夹名)。</p>]]></content>
       
       
       <categories>
@@ -226,9 +226,9 @@
       
         <tags>
             
-            <tag> 生活 </tag>
-            
             <tag> 美剧 </tag>
+            
+            <tag> 生活 </tag>
             
             <tag> 恶搞之家 </tag>
             
@@ -289,6 +289,31 @@
     
     
     <entry>
+      <title>雅思考试相关</title>
+      <link href="/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/"/>
+      <url>/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/</url>
+      
+        <content type="html"><![CDATA[<p>最近备考雅思和驾照，在此写下雅思考试的相关注意事项。</p><span id="more"></span><h1 id="考试时间和内容"><a href="#考试时间和内容" class="headerlink" title="考试时间和内容"></a>考试时间和内容</h1><h2 id="时间"><a href="#时间" class="headerlink" title="时间"></a>时间</h2><p>基本上每个月的周末都可以进行考试，分为两天，一天笔试(听力，阅读和写作)，一天口语面试。<br><img src="https://s2.loli.net/2022/06/14/prOfEQP5Fy2IvBh.jpg" alt="考试时间示例图"></p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="笔试"><a href="#笔试" class="headerlink" title="笔试"></a>笔试</h3><blockquote><p>听力部分：时间是40分钟，30分钟考试，10分钟答题卡<br>阅读部分：时间是60分钟，40道题目，3-4篇文章<br>写作考试：时间是60分钟，分为大作文小作文</p></blockquote><h3 id="口语面试"><a href="#口语面试" class="headerlink" title="口语面试"></a>口语面试</h3><blockquote><p>分为三部分：<br>part1:基本生活对话<br>part2:由题目发表2分钟讲话<br>part3:在上一节基础上深入对话<br>(可能有变动，要随机应变)</p></blockquote><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>笔试仍然沿用我的老方法，背单词+做真题+研读阅读题。<br>口语部分只能是多读多写，辅导资料不用太多，遵循极简原则，一本书吃透即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 雅思 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 雅思 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>腾讯云的静态网页托管</title>
       <link href="/2022/10/04/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/"/>
       <url>/2022/10/04/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/</url>
@@ -310,31 +335,6 @@
             <tag> 腾讯云 </tag>
             
             <tag> 网页托管 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>雅思考试相关</title>
-      <link href="/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/"/>
-      <url>/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/</url>
-      
-        <content type="html"><![CDATA[<p>最近备考雅思和驾照，在此写下雅思考试的相关注意事项。</p><span id="more"></span><h1 id="考试时间和内容"><a href="#考试时间和内容" class="headerlink" title="考试时间和内容"></a>考试时间和内容</h1><h2 id="时间"><a href="#时间" class="headerlink" title="时间"></a>时间</h2><p>基本上每个月的周末都可以进行考试，分为两天，一天笔试(听力，阅读和写作)，一天口语面试。<br><img src="https://s2.loli.net/2022/06/14/prOfEQP5Fy2IvBh.jpg" alt="考试时间示例图"></p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="笔试"><a href="#笔试" class="headerlink" title="笔试"></a>笔试</h3><blockquote><p>听力部分：时间是40分钟，30分钟考试，10分钟答题卡<br>阅读部分：时间是60分钟，40道题目，3-4篇文章<br>写作考试：时间是60分钟，分为大作文小作文</p></blockquote><h3 id="口语面试"><a href="#口语面试" class="headerlink" title="口语面试"></a>口语面试</h3><blockquote><p>分为三部分：<br>part1:基本生活对话<br>part2:由题目发表2分钟讲话<br>part3:在上一节基础上深入对话<br>(可能有变动，要随机应变)</p></blockquote><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p>笔试仍然沿用我的老方法，背单词+做真题+研读阅读题。<br>口语部分只能是多读多写，辅导资料不用太多，遵循极简原则，一本书吃透即可。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 雅思 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 雅思 </tag>
             
         </tags>
       
