@@ -6,7 +6,7 @@
   <link href="https://theforestbone.github.io/atom.xml" rel="self"/>
   
   <link href="https://theforestbone.github.io/"/>
-  <updated>2022-06-03T08:26:56.367Z</updated>
+  <updated>2022-06-04T08:23:47.124Z</updated>
   <id>https://theforestbone.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6-4日记</title>
+    <link href="https://theforestbone.github.io/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
+    <id>https://theforestbone.github.io/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</id>
+    <published>2022-10-03T16:07:35.720Z</published>
+    <updated>2022-06-04T08:23:47.124Z</updated>
+    
+    <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的<a href="https://io-oi.me/">博客</a>，被其精美且小清新范的页面深深吸引了。<br>今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。<br>由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的读博意愿。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;前几日观赏了reuixiy大佬的&lt;a href=&quot;https://io-oi.me/&quot;&gt;博客&lt;/a&gt;，被其精美且小清新范的页面深深吸引了。&lt;br&gt;今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。&lt;br&gt;由于自</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>6-3日记</title>
@@ -30,30 +54,6 @@
       
     <summary type="html">&lt;p&gt;越深入了解Python，越感受到Excel的优越之处。&lt;br&gt;真正的牛逼不是你能写出多眼花缭乱的代码，而是你能做出什么东西。&lt;br&gt;或许我该找时间好好学习一下Excel？&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="https://theforestbone.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>6-4日记</title>
-    <link href="https://theforestbone.github.io/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
-    <id>https://theforestbone.github.io/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</id>
-    <published>2022-10-03T16:07:35.720Z</published>
-    <updated>2022-06-04T08:23:47.124Z</updated>
-    
-    <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的<a href="https://io-oi.me/">博客</a>，被其精美且小清新范的页面深深吸引了。<br>今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。<br>由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的读博意愿。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;前几日观赏了reuixiy大佬的&lt;a href=&quot;https://io-oi.me/&quot;&gt;博客&lt;/a&gt;，被其精美且小清新范的页面深深吸引了。&lt;br&gt;今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。&lt;br&gt;由于自</summary>
       
     
     
@@ -234,9 +234,9 @@
     <category term="生活" scheme="https://theforestbone.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="美剧" scheme="https://theforestbone.github.io/tags/%E7%BE%8E%E5%89%A7/"/>
-    
     <category term="生活" scheme="https://theforestbone.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="美剧" scheme="https://theforestbone.github.io/tags/%E7%BE%8E%E5%89%A7/"/>
     
     <category term="恶搞之家" scheme="https://theforestbone.github.io/tags/%E6%81%B6%E6%90%9E%E4%B9%8B%E5%AE%B6/"/>
     
@@ -440,6 +440,25 @@
   </entry>
   
   <entry>
+    <title>9-14随想</title>
+    <link href="https://theforestbone.github.io/2022/10/04/9-14%E9%9A%8F%E6%83%B3/"/>
+    <id>https://theforestbone.github.io/2022/10/04/9-14%E9%9A%8F%E6%83%B3/</id>
+    <published>2022-10-03T16:07:35.673Z</published>
+    <updated>2022-09-14T07:14:16.143Z</updated>
+    
+    <content type="html"><![CDATA[<p>知识太多了</p><span id="more"></span><p>开始了研究生的生活，却被一种莫名的压力压的喘不过气，经过多天的总结，目前的困扰有如下几点：</p><ol><li><p>要学习的知识如此之多，任意一本书拿出来都可以够我啃上好几周，时间根本来不及而且我也没有那么强的自学能力。</p></li><li><p>方向不明确，是顺应专硕条件去实习工作，还是继续深造读博，如果要读博我的方向是什么？应该从现在准备论文吗？总之我不认为应该浑浑噩噩的走一步看一步。</p></li><li><p>是否应该发展一个自己除去学习之外的专长？是做自己个人博客还是发展自媒体？还是专注于数据分析？机器学习的海洋如此之宽旷，要兼顾学习和实习不是我一人之力可以做到的。我应该如何决定？</p></li><li><p>身体是工作之本，我应该制定一个属于自己的健康要求计划，每天注重自律，停止着眼眼前既得利益。</p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;知识太多了&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>LeetCode例题</title>
     <link href="https://theforestbone.github.io/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/"/>
     <id>https://theforestbone.github.io/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/</id>
@@ -459,25 +478,6 @@
     <category term="学习" scheme="https://theforestbone.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="LeetCode" scheme="https://theforestbone.github.io/tags/LeetCode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>9-14随想</title>
-    <link href="https://theforestbone.github.io/2022/10/04/9-14%E9%9A%8F%E6%83%B3/"/>
-    <id>https://theforestbone.github.io/2022/10/04/9-14%E9%9A%8F%E6%83%B3/</id>
-    <published>2022-10-03T16:07:35.673Z</published>
-    <updated>2022-09-14T07:14:16.143Z</updated>
-    
-    <content type="html"><![CDATA[<p>知识太多了</p><span id="more"></span><p>开始了研究生的生活，却被一种莫名的压力压的喘不过气，经过多天的总结，目前的困扰有如下几点：</p><ol><li><p>要学习的知识如此之多，任意一本书拿出来都可以够我啃上好几周，时间根本来不及而且我也没有那么强的自学能力。</p></li><li><p>方向不明确，是顺应专硕条件去实习工作，还是继续深造读博，如果要读博我的方向是什么？应该从现在准备论文吗？总之我不认为应该浑浑噩噩的走一步看一步。</p></li><li><p>是否应该发展一个自己除去学习之外的专长？是做自己个人博客还是发展自媒体？还是专注于数据分析？机器学习的海洋如此之宽旷，要兼顾学习和实习不是我一人之力可以做到的。我应该如何决定？</p></li><li><p>身体是工作之本，我应该制定一个属于自己的健康要求计划，每天注重自律，停止着眼眼前既得利益。</p></li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;知识太多了&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
-    
     
   </entry>
   
