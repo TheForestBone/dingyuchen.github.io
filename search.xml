@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>6-4日记</title>
-      <link href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
-      <url>/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</url>
+      <title>6-3日记</title>
+      <link href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/"/>
+      <url>/2022/10/04/6-3%E9%9A%8F%E6%83%B3/</url>
       
-        <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的<a href="https://io-oi.me/">博客</a>，被其精美且小清新范的页面深深吸引了。<br>今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。<br>由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的读博意愿。</p>]]></content>
+        <content type="html"><![CDATA[<p>越深入了解Python，越感受到Excel的优越之处。<br>真正的牛逼不是你能写出多眼花缭乱的代码，而是你能做出什么东西。<br>或许我该找时间好好学习一下Excel？</p>]]></content>
       
       
       <categories>
@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>6-3日记</title>
-      <link href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/"/>
-      <url>/2022/10/04/6-3%E9%9A%8F%E6%83%B3/</url>
+      <title>6-4日记</title>
+      <link href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
+      <url>/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</url>
       
-        <content type="html"><![CDATA[<p>越深入了解Python，越感受到Excel的优越之处。<br>真正的牛逼不是你能写出多眼花缭乱的代码，而是你能做出什么东西。<br>或许我该找时间好好学习一下Excel？</p>]]></content>
+        <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的<a href="https://io-oi.me/">博客</a>，被其精美且小清新范的页面深深吸引了。<br>今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。<br>由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的读博意愿。</p>]]></content>
       
       
       <categories>
@@ -226,9 +226,9 @@
       
         <tags>
             
-            <tag> 美剧 </tag>
-            
             <tag> 生活 </tag>
+            
+            <tag> 美剧 </tag>
             
             <tag> 恶搞之家 </tag>
             
@@ -418,31 +418,6 @@
     
     
     <entry>
-      <title>我和涵</title>
-      <link href="/2022/10/04/%E6%88%91%E5%92%8C%E6%B6%B5/"/>
-      <url>/2022/10/04/%E6%88%91%E5%92%8C%E6%B6%B5/</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="572d6463c147b29c97a8e9afed35ec8f4e567e08385ede64368635491433bc8b">548d34713a7f60948385b89cd77d65b1f5e3b152c3180dd0a9c3aad8c6e79bf7e5b51fc3fec34163068c9cae83bcdd2ce7abfbfdbef73e1b3c8149b41295bf6de81cbf7f1496fa3d0b5bf099c702980d</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">You must enter the password to read.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 涵 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>科目一部分知识点总结</title>
       <link href="/2022/10/04/%E7%A7%91%E7%9B%AE%E4%B8%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/"/>
       <url>/2022/10/04/%E7%A7%91%E7%9B%AE%E4%B8%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</url>
@@ -460,6 +435,31 @@
         <tags>
             
             <tag> 科目一 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我和涵</title>
+      <link href="/2022/10/04/%E6%88%91%E5%92%8C%E6%B6%B5/"/>
+      <url>/2022/10/04/%E6%88%91%E5%92%8C%E6%B6%B5/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="572d6463c147b29c97a8e9afed35ec8f4e567e08385ede64368635491433bc8b">548d34713a7f60948385b89cd77d65b1f5e3b152c3180dd0a9c3aad8c6e79bf7e5b51fc3fec34163068c9cae83bcdd2ce7abfbfdbef73e1b3c8149b41295bf6de81cbf7f1496fa3d0b5bf099c702980d</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">You must enter the password to read.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 涵 </tag>
             
         </tags>
       
@@ -566,33 +566,6 @@
     
     
     <entry>
-      <title>Numpy学习</title>
-      <link href="/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/"/>
-      <url>/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/</url>
-      
-        <content type="html"><![CDATA[<span id="more"></span><h1 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h1><h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>Numerical Python是Python的一个拓展程序库，支持大量维度数组和矩阵运算。为开放的源代码并且由许多协作者共同维护开发，其运行速度很快。<br>Numpy通常与：</p><ul><li>Scipy（科学工程计算）</li><li>Matplotlib（绘图）</li></ul><p>一起使用</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">from numpy import *#导入numpy库</span><br><span class="line"></span><br><span class="line">eye(4)#生成对角矩阵</span><br></pre></td></tr></table></figure><h2 id="Numpy的Ndarray对象"><a href="#Numpy的Ndarray对象" class="headerlink" title="Numpy的Ndarray对象"></a>Numpy的Ndarray对象</h2><p>基本形式如下：<br><strong>numpy.array(object, dtype &#x3D; None, copy &#x3D; True, order &#x3D; None, subok &#x3D; False, ndmin &#x3D; 0)</strong><br>其中：</p><ul><li>object: 要进行操作的数组</li><li>dtype: 元素的数据类型（后面会有介绍）</li><li>copy: 对象是否复制</li><li>order: 创建数组的样式，C为行方向，F为列方向，A为任意方向（默认）</li><li>subok: 默认返回一个与基类类型一致的数组</li><li>ndmin: 指定生成数组的最小维度</li></ul><h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>Numpy的数据类型较多，具体可以在<a href="https://www.runoob.com/numpy/numpy-dtype.html">这里</a>找到</p><h2 id="数据类型对象（dtype）"><a href="#数据类型对象（dtype）" class="headerlink" title="数据类型对象（dtype）"></a>数据类型对象（dtype）</h2><p>numpy.dtype描述了数据的以下方面：</p><ul><li>数据的类型（整数，浮点数）</li><li>数据大小（用多少字节去存储）</li><li>数据的字节顺序<br>等等<br>小端法：最小值存储在最小的地址。<br>大端法：最重要的字节存储在最小的地址。</li></ul><p>dtype对象使用如下语法：<br>numpy.dtype(object,align,copy)<br>关于其的详细用法我们可以通过如下例子来解释：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">dt = np.dtype([(&#x27;age&#x27;,np.int8)])#规定了一个数据类型对象，可以套用在其他Ndarray上。</span><br><span class="line"></span><br><span class="line">a = np.array([(10),(20),(30)],dtype = dt)</span><br><span class="line"></span><br><span class="line">print(a[&#x27;age&#x27;])</span><br><span class="line"></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure><p>结果为：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[10,20,30]</span><br><span class="line">[(10),(20),(30)]</span><br></pre></td></tr></table></figure><p><em><strong>（其中的有无括号区别我也不清楚，此处存疑问老师）</strong></em><br>我们也可以用另一个例子来加深理解：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">student = np.dtype([(&#x27;name&#x27;,&#x27;S20&#x27;), (&#x27;age&#x27;, &#x27;i1&#x27;), (&#x27;marks&#x27;, &#x27;f4&#x27;)]) </span><br><span class="line"></span><br><span class="line">a = np.array([(&#x27;abc&#x27;, 21, 50),(&#x27;xyz&#x27;, 18, 75)], dtype = student) </span><br><span class="line"></span><br><span class="line">print(a[&#x27;name&#x27;].dtype)</span><br></pre></td></tr></table></figure><p>可以看到，np.dtype将三种数据属性（名称和类型）对应到了np.array上，name对应一列，age对应一列，并分别规定了类型（int8对应i1，此类i2，i3,i4乘以8即可）等等</p><h2 id="Numpy数据类型"><a href="#Numpy数据类型" class="headerlink" title="Numpy数据类型"></a>Numpy数据类型</h2><p>Numpy数组的维数称为秩（rank），秩就是轴的数量，即数组的维度，一维数组的秩为 1，二维数组的秩为 2。<br>在 NumPy中，每一个线性的数组称为是一个轴（axis），也就是维度（dimensions）。 </p><ul><li>axis&#x3D;0，表示沿着第 0 轴进行操作，即对每一列进行操作。</li><li>axis&#x3D;1，表示沿着第1轴进行操作，即对每一行进行操作。</li></ul><p>一些比较重要的nadarray对象属性：</p><table><thead><tr><th align="center">属性</th><th align="center">说明</th></tr></thead><tbody><tr><td align="center">ndarray.ndim</td><td align="center">秩，即轴的数量或维度的数量</td></tr><tr><td align="center">ndarray.shape</td><td align="center">数组的维度，对于矩阵，n行m列</td></tr><tr><td align="center">ndarray.size</td><td align="center">数组元素的总个数，相当于.shape中 n*m 的值</td></tr><tr><td align="center">ndarray.dtype</td><td align="center">ndarray 对象的元素类型</td></tr><tr><td align="center">ndarray.itemsize</td><td align="center">ndarray 对象中每个元素的大小，以字节为单位</td></tr><tr><td align="center">ndarray.flags</td><td align="center">ndarray 对象的内存信息</td></tr><tr><td align="center">ndarray.real</td><td align="center">ndarray元素的实部</td></tr><tr><td align="center">ndarray.imag</td><td align="center">ndarray 元素的虚部</td></tr><tr><td align="center">ndarray.data</td><td align="center">包含实际数组元素的缓冲区，由于一般通过数组的索引获取元素，所以通常不需要使用这个属性。</td></tr></tbody></table><p>我们引用实例：</p><ul><li>ndarray.ndim<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">a = np.arange(24)</span><br><span class="line"></span><br><span class="line">print(a.ndim)</span><br><span class="line"></span><br><span class="line">b = a.reshape(2,4,3) #调整其维度</span><br><span class="line"></span><br><span class="line">print(b.ndim)</span><br><span class="line"></span><br><span class="line">print(b)</span><br></pre></td></tr></table></figure>可自行运行，结果为两个4*3矩阵列表。</li><li>ndarray.shape<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = np.array([[1,2,3],[4,5,6]])</span><br><span class="line"></span><br><span class="line">a.shape = (3,2)</span><br><span class="line"></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>其结果将2*3的矩阵转化为3*2</li><li>ndarray.itemsize<br>ndarray.itemsize 以字节的形式返回数组中每一个元素的大小。<br>例如，一个元素类型为 float64 的数组 itemsize 属性值为 8(float64 占用 64 个 bits，每个字节长度为 8，所以 64&#x2F;8，占用 8 个字节），又如，一个元素类型为 complex32 的数组 item 属性为 4（32&#x2F;8）。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 数组的 dtype 为 float64（八个字节） </span><br><span class="line"></span><br><span class="line">y = np.array([1,2,3,4,5], dtype = np.float64)  </span><br><span class="line"></span><br><span class="line">print (y.itemsize)</span><br></pre></td></tr></table></figure>结果为8。</li><li>ndarray.flags<br>ndarray.flags 返回 ndarray 对象的内存信息。<br>关于内存知识没有太大学习兴趣，在此不再赘述。</li></ul><h2 id="Numpy创建数组"><a href="#Numpy创建数组" class="headerlink" title="Numpy创建数组"></a>Numpy创建数组</h2><p>ndarray 数组除了可以使用底层 ndarray 构造器来创建外，也可以通过以下几种方式来创建。</p><ul><li>numpy.empty<br>numpy.empty 方法用来创建一个指定形状（shape）、数据类型（dtype）且未初始化的数组：<br><strong>numpy.empty(shape, dtype &#x3D; float, order &#x3D; ‘C’)</strong><br>order（c或者f）表示行优先或列优先。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x = np.empty([3,2], dtype = int) </span><br><span class="line"></span><br><span class="line">print (x)</span><br></pre></td></tr></table></figure>结果的数组元素为随机值，未初始化。<br>同样的用法还有</li><li>numpy.zeros</li><li>numpy.ones</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Numpy </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习 </tag>
-            
-            <tag> Numpy </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Pandas学习</title>
       <link href="/2022/10/04/Pandas%E5%AD%A6%E4%B9%A0/"/>
       <url>/2022/10/04/Pandas%E5%AD%A6%E4%B9%A0/</url>
@@ -612,6 +585,33 @@
             <tag> 学习 </tag>
             
             <tag> Pandas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Numpy学习</title>
+      <link href="/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><h1 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a>Numpy</h1><h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>Numerical Python是Python的一个拓展程序库，支持大量维度数组和矩阵运算。为开放的源代码并且由许多协作者共同维护开发，其运行速度很快。<br>Numpy通常与：</p><ul><li>Scipy（科学工程计算）</li><li>Matplotlib（绘图）</li></ul><p>一起使用</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">from numpy import *#导入numpy库</span><br><span class="line"></span><br><span class="line">eye(4)#生成对角矩阵</span><br></pre></td></tr></table></figure><h2 id="Numpy的Ndarray对象"><a href="#Numpy的Ndarray对象" class="headerlink" title="Numpy的Ndarray对象"></a>Numpy的Ndarray对象</h2><p>基本形式如下：<br><strong>numpy.array(object, dtype &#x3D; None, copy &#x3D; True, order &#x3D; None, subok &#x3D; False, ndmin &#x3D; 0)</strong><br>其中：</p><ul><li>object: 要进行操作的数组</li><li>dtype: 元素的数据类型（后面会有介绍）</li><li>copy: 对象是否复制</li><li>order: 创建数组的样式，C为行方向，F为列方向，A为任意方向（默认）</li><li>subok: 默认返回一个与基类类型一致的数组</li><li>ndmin: 指定生成数组的最小维度</li></ul><h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>Numpy的数据类型较多，具体可以在<a href="https://www.runoob.com/numpy/numpy-dtype.html">这里</a>找到</p><h2 id="数据类型对象（dtype）"><a href="#数据类型对象（dtype）" class="headerlink" title="数据类型对象（dtype）"></a>数据类型对象（dtype）</h2><p>numpy.dtype描述了数据的以下方面：</p><ul><li>数据的类型（整数，浮点数）</li><li>数据大小（用多少字节去存储）</li><li>数据的字节顺序<br>等等<br>小端法：最小值存储在最小的地址。<br>大端法：最重要的字节存储在最小的地址。</li></ul><p>dtype对象使用如下语法：<br>numpy.dtype(object,align,copy)<br>关于其的详细用法我们可以通过如下例子来解释：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">dt = np.dtype([(&#x27;age&#x27;,np.int8)])#规定了一个数据类型对象，可以套用在其他Ndarray上。</span><br><span class="line"></span><br><span class="line">a = np.array([(10),(20),(30)],dtype = dt)</span><br><span class="line"></span><br><span class="line">print(a[&#x27;age&#x27;])</span><br><span class="line"></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure><p>结果为：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[10,20,30]</span><br><span class="line">[(10),(20),(30)]</span><br></pre></td></tr></table></figure><p><em><strong>（其中的有无括号区别我也不清楚，此处存疑问老师）</strong></em><br>我们也可以用另一个例子来加深理解：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">student = np.dtype([(&#x27;name&#x27;,&#x27;S20&#x27;), (&#x27;age&#x27;, &#x27;i1&#x27;), (&#x27;marks&#x27;, &#x27;f4&#x27;)]) </span><br><span class="line"></span><br><span class="line">a = np.array([(&#x27;abc&#x27;, 21, 50),(&#x27;xyz&#x27;, 18, 75)], dtype = student) </span><br><span class="line"></span><br><span class="line">print(a[&#x27;name&#x27;].dtype)</span><br></pre></td></tr></table></figure><p>可以看到，np.dtype将三种数据属性（名称和类型）对应到了np.array上，name对应一列，age对应一列，并分别规定了类型（int8对应i1，此类i2，i3,i4乘以8即可）等等</p><h2 id="Numpy数据类型"><a href="#Numpy数据类型" class="headerlink" title="Numpy数据类型"></a>Numpy数据类型</h2><p>Numpy数组的维数称为秩（rank），秩就是轴的数量，即数组的维度，一维数组的秩为 1，二维数组的秩为 2。<br>在 NumPy中，每一个线性的数组称为是一个轴（axis），也就是维度（dimensions）。 </p><ul><li>axis&#x3D;0，表示沿着第 0 轴进行操作，即对每一列进行操作。</li><li>axis&#x3D;1，表示沿着第1轴进行操作，即对每一行进行操作。</li></ul><p>一些比较重要的nadarray对象属性：</p><table><thead><tr><th align="center">属性</th><th align="center">说明</th></tr></thead><tbody><tr><td align="center">ndarray.ndim</td><td align="center">秩，即轴的数量或维度的数量</td></tr><tr><td align="center">ndarray.shape</td><td align="center">数组的维度，对于矩阵，n行m列</td></tr><tr><td align="center">ndarray.size</td><td align="center">数组元素的总个数，相当于.shape中 n*m 的值</td></tr><tr><td align="center">ndarray.dtype</td><td align="center">ndarray 对象的元素类型</td></tr><tr><td align="center">ndarray.itemsize</td><td align="center">ndarray 对象中每个元素的大小，以字节为单位</td></tr><tr><td align="center">ndarray.flags</td><td align="center">ndarray 对象的内存信息</td></tr><tr><td align="center">ndarray.real</td><td align="center">ndarray元素的实部</td></tr><tr><td align="center">ndarray.imag</td><td align="center">ndarray 元素的虚部</td></tr><tr><td align="center">ndarray.data</td><td align="center">包含实际数组元素的缓冲区，由于一般通过数组的索引获取元素，所以通常不需要使用这个属性。</td></tr></tbody></table><p>我们引用实例：</p><ul><li>ndarray.ndim<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">a = np.arange(24)</span><br><span class="line"></span><br><span class="line">print(a.ndim)</span><br><span class="line"></span><br><span class="line">b = a.reshape(2,4,3) #调整其维度</span><br><span class="line"></span><br><span class="line">print(b.ndim)</span><br><span class="line"></span><br><span class="line">print(b)</span><br></pre></td></tr></table></figure>可自行运行，结果为两个4*3矩阵列表。</li><li>ndarray.shape<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = np.array([[1,2,3],[4,5,6]])</span><br><span class="line"></span><br><span class="line">a.shape = (3,2)</span><br><span class="line"></span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>其结果将2*3的矩阵转化为3*2</li><li>ndarray.itemsize<br>ndarray.itemsize 以字节的形式返回数组中每一个元素的大小。<br>例如，一个元素类型为 float64 的数组 itemsize 属性值为 8(float64 占用 64 个 bits，每个字节长度为 8，所以 64&#x2F;8，占用 8 个字节），又如，一个元素类型为 complex32 的数组 item 属性为 4（32&#x2F;8）。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 数组的 dtype 为 float64（八个字节） </span><br><span class="line"></span><br><span class="line">y = np.array([1,2,3,4,5], dtype = np.float64)  </span><br><span class="line"></span><br><span class="line">print (y.itemsize)</span><br></pre></td></tr></table></figure>结果为8。</li><li>ndarray.flags<br>ndarray.flags 返回 ndarray 对象的内存信息。<br>关于内存知识没有太大学习兴趣，在此不再赘述。</li></ul><h2 id="Numpy创建数组"><a href="#Numpy创建数组" class="headerlink" title="Numpy创建数组"></a>Numpy创建数组</h2><p>ndarray 数组除了可以使用底层 ndarray 构造器来创建外，也可以通过以下几种方式来创建。</p><ul><li>numpy.empty<br>numpy.empty 方法用来创建一个指定形状（shape）、数据类型（dtype）且未初始化的数组：<br><strong>numpy.empty(shape, dtype &#x3D; float, order &#x3D; ‘C’)</strong><br>order（c或者f）表示行优先或列优先。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x = np.empty([3,2], dtype = int) </span><br><span class="line"></span><br><span class="line">print (x)</span><br></pre></td></tr></table></figure>结果的数组元素为随机值，未初始化。<br>同样的用法还有</li><li>numpy.zeros</li><li>numpy.ones</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Numpy </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> Numpy </tag>
             
         </tags>
       
