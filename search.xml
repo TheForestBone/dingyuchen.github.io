@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>6-4日记</title>
-      <link href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
-      <url>/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</url>
+      <title>6-3日记</title>
+      <link href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/"/>
+      <url>/2022/10/04/6-3%E9%9A%8F%E6%83%B3/</url>
       
-        <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的<a href="https://io-oi.me/">博客</a>，被其精美且小清新范的页面深深吸引了。<br>今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。<br>由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的读博意愿。</p>]]></content>
+        <content type="html"><![CDATA[<p>越深入了解Python，越感受到Excel的优越之处。<br>真正的牛逼不是你能写出多眼花缭乱的代码，而是你能做出什么东西。<br>或许我该找时间好好学习一下Excel？</p>]]></content>
       
       
       <categories>
@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>6-3日记</title>
-      <link href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/"/>
-      <url>/2022/10/04/6-3%E9%9A%8F%E6%83%B3/</url>
+      <title>6-4日记</title>
+      <link href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
+      <url>/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</url>
       
-        <content type="html"><![CDATA[<p>越深入了解Python，越感受到Excel的优越之处。<br>真正的牛逼不是你能写出多眼花缭乱的代码，而是你能做出什么东西。<br>或许我该找时间好好学习一下Excel？</p>]]></content>
+        <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的<a href="https://io-oi.me/">博客</a>，被其精美且小清新范的页面深深吸引了。<br>今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。<br>由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的读博意愿。</p>]]></content>
       
       
       <categories>
@@ -97,9 +97,9 @@
       
         <tags>
             
-            <tag> 爬虫 </tag>
-            
             <tag> Python </tag>
+            
+            <tag> 爬虫 </tag>
             
             <tag> 数据分析 </tag>
             
@@ -422,7 +422,7 @@
       <link href="/2022/10/04/%E6%88%91%E5%92%8C%E6%B6%B5/"/>
       <url>/2022/10/04/%E6%88%91%E5%92%8C%E6%B6%B5/</url>
       
-        <content type="html"><![CDATA[<p>我爱涵涵<br>希望涵涵也爱我</p>]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="572d6463c147b29c97a8e9afed35ec8f4e567e08385ede64368635491433bc8b">548d34713a7f60948385b89cd77d65b1f5e3b152c3180dd0a9c3aad8c6e79bf7e5b51fc3fec34163068c9cae83bcdd2ce7abfbfdbef73e1b3c8149b41295bf6de81cbf7f1496fa3d0b5bf099c702980d</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">You must enter the password to read.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
       <categories>
@@ -514,6 +514,31 @@
     
     
     <entry>
+      <title>Matplotlib学习</title>
+      <link href="/2022/10/04/Matplotlib/"/>
+      <url>/2022/10/04/Matplotlib/</url>
+      
+        <content type="html"><![CDATA[<p>在你开始学习之前，首先要想清楚自己为什么要学。请一定给自己一个足够说服你行动的理由。</p><span id="more"></span><p>实际应用可能会用js框架而不是matplotlib，但是有助于我们进行数据理解。</p><p><strong>Matplotlib是最流行的Python底层绘图库。</strong></p><p>axis轴，指x,y的坐标轴。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 数据分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MySQL学习</title>
       <link href="/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/"/>
       <url>/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/</url>
@@ -533,31 +558,6 @@
             <tag> 学习 </tag>
             
             <tag> MySQL </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Matplotlib学习</title>
-      <link href="/2022/10/04/Matplotlib/"/>
-      <url>/2022/10/04/Matplotlib/</url>
-      
-        <content type="html"><![CDATA[<p>在你开始学习之前，首先要想清楚自己为什么要学。请一定给自己一个足够说服你行动的理由。</p><span id="more"></span><p>实际应用可能会用js框架而不是matplotlib，但是有助于我们进行数据理解。</p><p><strong>Matplotlib是最流行的Python底层绘图库。</strong></p><p>axis轴，指x,y的坐标轴。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数据分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 机器学习 数据分析 </tag>
             
         </tags>
       
