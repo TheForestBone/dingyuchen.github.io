@@ -1,3 +1,4 @@
+https://theforestbone.github.io/2022/10/10/%E8%AF%95%E8%AE%B2/
 https://theforestbone.github.io/2022/10/04/Pytorch%E5%AD%A6%E4%B9%A0/
 https://theforestbone.github.io/2022/10/04/%E6%88%91%E5%92%8C%E6%B6%B5/
 https://theforestbone.github.io/2022/10/04/Pandas%E5%AD%A6%E4%B9%A0/
@@ -59,6 +60,7 @@ https://theforestbone.github.io/tags/%E6%B6%B5/
 https://theforestbone.github.io/tags/%E9%9B%85%E6%80%9D/
 https://theforestbone.github.io/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/
 https://theforestbone.github.io/tags/%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/
+https://theforestbone.github.io/tags/%E5%BA%94%E7%94%A8%E7%BB%9F%E8%AE%A1-%E8%80%83%E7%A0%94/
 https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/
 https://theforestbone.github.io/categories/Hexo/
 https://theforestbone.github.io/categories/Markdown/
@@ -75,3 +77,4 @@ https://theforestbone.github.io/categories/%E9%A9%BE%E7%85%A7/
 https://theforestbone.github.io/categories/%E5%93%B2%E5%AD%A6/
 https://theforestbone.github.io/categories/%E8%80%83%E7%A0%94/
 https://theforestbone.github.io/categories/%E9%9B%85%E6%80%9D/
+https://theforestbone.github.io/categories/432%E7%BB%9F%E8%AE%A1%E5%AD%A6/

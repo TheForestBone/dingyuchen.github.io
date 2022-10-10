@@ -6,7 +6,7 @@
   <link href="https://theforestbone.github.io/atom.xml" rel="self"/>
   
   <link href="https://theforestbone.github.io/"/>
-  <updated>2022-06-03T08:26:56.367Z</updated>
+  <updated>2022-10-10T07:33:50.567Z</updated>
   <id>https://theforestbone.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>试讲</title>
+    <link href="https://theforestbone.github.io/2022/10/10/%E8%AF%95%E8%AE%B2/"/>
+    <id>https://theforestbone.github.io/2022/10/10/%E8%AF%95%E8%AE%B2/</id>
+    <published>2022-10-10T07:22:39.307Z</published>
+    <updated>2022-10-10T07:33:50.567Z</updated>
+    
+    <content type="html"><![CDATA[<center>在你开始学习之前，首先要想清楚自己是为什么而学。<p>请一定给自己一个足够说服你行动的理由。</p></center><span id="more"></span><h1 id="随机变量序列的两种收敛性"><a href="#随机变量序列的两种收敛性" class="headerlink" title="随机变量序列的两种收敛性"></a>随机变量序列的两种收敛性</h1><p>随机变量序列的收敛性有两种：</p><ul><li>依概率收敛（大数定律有所涉及）</li><li>按分布收敛（中心极限定律有所涉及）</li></ul><p>这两种收敛在概率论和数理统计中都有广泛应用，应当深度掌握。</p><h2 id="依概率收敛"><a href="#依概率收敛" class="headerlink" title="依概率收敛"></a>依概率收敛</h2><p>$$<br>sinx &#x3D; \frac{1}{2j}<br>$$</p>]]></content>
+    
+    
+    <summary type="html">&lt;center&gt;
+在你开始学习之前，首先要想清楚自己是为什么而学。
+
+&lt;p&gt;请一定给自己一个足够说服你行动的理由。&lt;/p&gt;
+&lt;/center&gt;</summary>
+    
+    
+    
+    <category term="432统计学" scheme="https://theforestbone.github.io/categories/432%E7%BB%9F%E8%AE%A1%E5%AD%A6/"/>
+    
+    
+    <category term="应用统计 考研" scheme="https://theforestbone.github.io/tags/%E5%BA%94%E7%94%A8%E7%BB%9F%E8%AE%A1-%E8%80%83%E7%A0%94/"/>
+    
+  </entry>
   
   <entry>
     <title>6-3日记</title>
@@ -451,29 +476,6 @@
     
     <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>LeetCode例题</title>
-    <link href="https://theforestbone.github.io/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/"/>
-    <id>https://theforestbone.github.io/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/</id>
-    <published>2022-10-03T16:07:35.673Z</published>
-    <updated>2022-09-15T03:14:17.817Z</updated>
-    
-    <content type="html"><![CDATA[<p>一些LeetCode的例题</p><span id="more"></span><h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><h2 id="一堆数组的动态和"><a href="#一堆数组的动态和" class="headerlink" title="一堆数组的动态和"></a>一堆数组的动态和</h2><p>给你一个数组 nums 。数组「动态和」的计算公式为：runningSum[i] &#x3D; sum(nums[0]…nums[i]) 。</p><p>请返回 nums 的动态和。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line">    def runningSum(self, nums: List[int]) -&gt; List[int]:</span><br><span class="line"></span><br><span class="line">        for i in range(1,len(nums)):</span><br><span class="line">            nums2 = nums</span><br><span class="line">            nums2[0] = nums[0]</span><br><span class="line">            nums2[i] = (&#x27;%s+%s&#x27;%(nums[i-1],nums[i]))</span><br><span class="line">            #nums2[i] = nums[i]+nums[i-1],一个是输出1+2，一个直接输出3</span><br><span class="line">        return(nums2)</span><br><span class="line">        print(nums2)</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;一些LeetCode的例题&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="LeetCode" scheme="https://theforestbone.github.io/categories/LeetCode/"/>
-    
-    
-    <category term="学习" scheme="https://theforestbone.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="LeetCode" scheme="https://theforestbone.github.io/tags/LeetCode/"/>
     
   </entry>
   

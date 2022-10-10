@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>试讲</title>
+      <link href="/2022/10/10/%E8%AF%95%E8%AE%B2/"/>
+      <url>/2022/10/10/%E8%AF%95%E8%AE%B2/</url>
+      
+        <content type="html"><![CDATA[<center>在你开始学习之前，首先要想清楚自己是为什么而学。<p>请一定给自己一个足够说服你行动的理由。</p></center><span id="more"></span><h1 id="随机变量序列的两种收敛性"><a href="#随机变量序列的两种收敛性" class="headerlink" title="随机变量序列的两种收敛性"></a>随机变量序列的两种收敛性</h1><p>随机变量序列的收敛性有两种：</p><ul><li>依概率收敛（大数定律有所涉及）</li><li>按分布收敛（中心极限定律有所涉及）</li></ul><p>这两种收敛在概率论和数理统计中都有广泛应用，应当深度掌握。</p><h2 id="依概率收敛"><a href="#依概率收敛" class="headerlink" title="依概率收敛"></a>依概率收敛</h2><p>$$<br>sinx &#x3D; \frac{1}{2j}<br>$$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 432统计学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 应用统计 考研 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>6-3日记</title>
       <link href="/2022/10/04/6-3%E9%9A%8F%E6%83%B3/"/>
       <url>/2022/10/04/6-3%E9%9A%8F%E6%83%B3/</url>
