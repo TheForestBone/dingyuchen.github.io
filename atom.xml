@@ -6,7 +6,7 @@
   <link href="https://theforestbone.github.io/atom.xml" rel="self"/>
   
   <link href="https://theforestbone.github.io/"/>
-  <updated>2022-11-22T07:29:41.626Z</updated>
+  <updated>2022-11-22T08:47:19.991Z</updated>
   <id>https://theforestbone.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://theforestbone.github.io/2022/11/22/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85GPU%E7%89%88%E7%9A%84Pytorch/"/>
     <id>https://theforestbone.github.io/2022/11/22/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85GPU%E7%89%88%E7%9A%84Pytorch/</id>
     <published>2022-11-22T07:02:59.070Z</published>
-    <updated>2022-11-22T07:29:41.626Z</updated>
+    <updated>2022-11-22T08:47:19.991Z</updated>
     
-    <content type="html"><![CDATA[<p>在本节内容讲解之前，先提几个前提。</p><p>前提是，有部分同学电脑上存在如下几个问题：</p><ul><li>电脑无法使用GPU</li><li>GPU无法在Pytorch中调用</li></ul><p>第一个问题的检验方法是在cmd中使用如下代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure><p>如果在jupyter中使用，在前方加上感叹号即可，注意是英文。</p><p>如果你的结果如下</p><p><img src="https://s2.loli.net/2022/11/22/L9DUmtxnPi6BXqI.png" alt="GPU.jpg"></p><p>证明你的电脑可以使用GPU，接下来我们再次验证该GPU是否可以在Pytorch中使用（在python中）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">torch.cuda.device_count()</span><br><span class="line">#output</span><br><span class="line">#1</span><br></pre></td></tr></table></figure><p>输出的结果就是你电脑的GPU数量（也可以观察第一步输出的内容）</p><p>如果你发现第一步根本没有输出，那么你需要下载一个nvidia显卡驱动，网址在<a href="https://www.nvidia.cn/">这里</a>，如果你的电脑使用AMD显卡，则找到AMD官网即可，点击官网右上角的驱动程序，选择相对应的打开即可。</p><p>那么我们如何确定我们电脑的显卡是英伟达还是AMD呢？<br>方法如下：</p><ul><li>在windows搜索栏搜索<strong>设备管理器</strong></li><li>找到<strong>显示适配器</strong>，点击展开</li></ul><p>然后你就可以看到自己的显卡，在官网找到相应的驱动程序。</p><p>所谓驱动程序就是指硬件和系统的桥梁，也就是说相当于一个翻译官，比如你运行一个游戏或者一个模型训练，即使你的显卡效果优越，但如果没有一个合适的翻译，系统仍然不知道你在干什么。驱动的升级意味着能更好的发挥你显卡的功能。❤</p><p>注：显卡由GPU，显存等等组成，GPU是显卡的组成部分。</p>]]></content>
+    <content type="html"><![CDATA[<p>在本节内容讲解之前，先提几个前提。</p><p>前提是，有部分同学电脑上存在如下几个问题：</p><ul><li>电脑无法使用GPU</li><li>GPU无法在Pytorch中调用</li></ul><h1>第一个问题</h1><p>第一个问题的检验方法是在cmd中使用如下代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvidia-smi</span><br></pre></td></tr></table></figure><p>如果在jupyter中使用，在前方加上感叹号即可，注意是英文。</p><p>如果你的结果如下</p><p><img src="https://s2.loli.net/2022/11/22/L9DUmtxnPi6BXqI.png" alt="GPU.jpg"></p><p>证明你的电脑可以使用GPU，接下来我们再次验证该GPU是否可以在Pytorch中使用（在python中）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">torch.cuda.device_count()</span><br><span class="line">#output</span><br><span class="line">#1</span><br></pre></td></tr></table></figure><p>输出的结果就是你电脑的GPU数量（也可以观察第一步输出的内容）</p><p>如果你发现第一步根本没有输出，那么你需要下载一个nvidia显卡驱动，网址在<a href="https://www.nvidia.cn/">这里</a>，如果你的电脑使用AMD显卡，则找到AMD官网即可，点击官网右上角的驱动程序，选择相对应的打开即可。</p><p>那么我们如何确定我们电脑的显卡是英伟达还是AMD呢？方法如下：</p><ul><li>在windows搜索栏搜索<strong>设备管理器</strong></li><li>找到<strong>显示适配器</strong>，点击展开</li></ul><p>然后你就可以看到自己的显卡，在官网找到相应的驱动程序。</p><p>所谓驱动程序就是指硬件和系统的桥梁，也就是说相当于一个翻译官，比如你运行一个游戏或者一个模型训练，即使你的显卡效果优越，但如果没有一个合适的翻译，系统仍然不知道你在干什么。驱动的升级意味着能更好的发挥你显卡的功能。😄</p><p>注：显卡由GPU，显存等等组成，GPU是显卡的组成部分。</p><h1>第二个问题</h1><p>如果你的torch.cuda.device_count()输出结果为零，那么可能你没有下载支持GPU的Pytorch和对应的cuda。</p><h2 id="下载cuda">下载cuda</h2><p>CUDA 是 NVIDIA 发明的一种并行计算平台和编程模型。它通过利用图形处理器 (GPU) 的处理能力，可大幅提升计算性能。</p><p>目前为止基于 CUDA 的 GPU 销量已达数以百万计，软件开发商、科学家以及研究人员正在各个领域中运用 CUDA，其中包括图像与视频处理、计算生物学和化学、流体力学模拟、CT 图像再现、地震分析以及光线追踪等等。</p><p>他的下载网址在<a href="https://developer.nvidia.com/cuda-downloads">这里</a></p><p>下载Version是11的exe(local)即可。</p><p>此外，顺便一提，CUDA和Pytroch(GPU)以及显卡之间都有比较繁琐的对应关系，这部分也是比较折磨的，我的建议是都下载最新版本的。如果确实不行，再去仔细研究适当降低版本。</p><h2 id="配置环境变量">配置环境变量</h2><ul><li>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\cudnn\bin</li><li>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\extras\CUPTI\lib64</li></ul><p>最好一路默认安装CUDA，这样会安装到C盘，运行速度会更快一些，如果你安装到其他盘，请将以上目录适当更改，然后，将以上目录添加到环境变量中即可。</p><p>环境变量更改上一节课已经讲过，如果不会可以私聊我。</p><h2 id="下载GPU版本的Pytroch和Pytorchvision">下载GPU版本的Pytroch和Pytorchvision</h2><p>具体的镜像网站在<a href="https://download.pytorch.org/whl/torch_stable.html">这里</a></p><p>之后根据以下三个信息定位你要下载的内容：</p><ul><li>cuda的版本</li><li>python的版本</li><li>你的系统</li></ul><p>比如cu101/torchvision-0.5.0-cp38-cp38-win_amd64.whl。</p><p>如果你的cuda和python都是最新，只需要下载最新的即可。</p><p>最后一步使用cmd的命令，设你的下载目录为x，则在cmd中使用如下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install torch 'x'</span><br></pre></td></tr></table></figure><p>注意，需要下载两个whl文件。</p><p><strong>以上下载和pip install都是在某一个环境中使用的，如果你想要在jupyter中使用，请参考我之前的文章进行环境注入</strong></p>]]></content>
     
     
       
@@ -34,7 +34,8 @@
 &lt;li&gt;电脑无法使用GPU&lt;/li&gt;
 &lt;li&gt;GPU无法在Pytorch中调用&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;第一个问题的检验方法是在cmd中使用如下代码：&lt;/p&gt;</summary>
+&lt;h1&gt;第一个问题&lt;/h1&gt;
+&lt;p&gt;第一个问题的检验方法是在</summary>
       
     
     
