@@ -285,6 +285,31 @@
     
     
     <entry>
+      <title>Python的列表，元组，集合和词典</title>
+      <link href="/2022/10/04/Python%E7%9A%84%E9%9B%86%E5%90%88%EF%BC%8C%E5%85%83%E7%BB%84%E7%AD%89/"/>
+      <url>/2022/10/04/Python%E7%9A%84%E9%9B%86%E5%90%88%EF%BC%8C%E5%85%83%E7%BB%84%E7%AD%89/</url>
+      
+        <content type="html"><![CDATA[<p>早前接触过Python的时候就被这些定义搞得含混不清，但是不理解的事物会一直成为一个绊脚石。今天下定决心要将这些知识彻底搞懂吸收，故在此写下知识要点。</p><span id="more"></span><p>1.列表（List）是一种有序和可更改的集合。允许重复的成员。2.元组（Tuple）是一种有序且不可更改的集合。允许重复的成员。3.集合（Set）是一个无序和无索引的集合。没有重复的成员。4.词典（Dictionary）是一个无序，可变和有索引的集合。没有重复的成员。</p><h2 id="列表">列表</h2><h3 id="创建和索引">创建和索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">mylist = [<span class="string">'fuck'</span>,<span class="string">'this'</span>,<span class="string">'shit'</span>]</span><br><span class="line"><span class="built_in">print</span>(mylist) <span class="comment">#创建</span></span><br><span class="line"><span class="built_in">print</span>(mylist[1]) <span class="comment">#第一个元素序号是0</span></span><br><span class="line"><span class="built_in">print</span>(mylist[2:5]) <span class="comment">#索引范围</span></span><br><span class="line">mylist[1] = <span class="string">'you'</span> <span class="comment">#更改某一项</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> mylist:</span><br><span class="line">  <span class="built_in">print</span>(x) <span class="comment">#遍历列表</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">'shit'</span> <span class="keyword">in</span> mylist:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">'Oh,yeah!'</span>)</span><br><span class="line">mylist.append(<span class="string">'she'</span>) <span class="comment">#追加项目</span></span><br><span class="line">mylist.insert(2,<span class="string">'bloody'</span>) <span class="comment">#插入项目</span></span><br><span class="line">mylist.remove(<span class="string">'fuck'</span>) <span class="comment">#删除指定项目</span></span><br><span class="line">del mylist[0] <span class="comment">#按索引删除，不加索引即删除整个列表</span></span><br><span class="line">mylist.clear() <span class="comment">#清空列表</span></span><br></pre></td></tr></table></figure><h3 id="复制列表">复制列表</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copylist = mylist.copy()</span><br></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copylist = list(mylist)</span><br></pre></td></tr></table></figure><h3 id="合并列表">合并列表</h3><p>最简单的方式是使用+，如：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list3 = list1 + list2</span><br></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list1.extend(list2)</span><br></pre></td></tr></table></figure><p>总结：</p><table><thead><tr><th>方法</th><th>描述</th></tr></thead><tbody><tr><td>append()</td><td>在列表的末尾添加一个元素</td></tr><tr><td>clear()</td><td>删除列表中的所有元素</td></tr><tr><td>copy()</td><td>返回列表的副本</td></tr><tr><td>count()</td><td>返回具有指定值的元素数量。</td></tr><tr><td>extend()</td><td>将列表元素（或任何可迭代的元素）添加到当前列表的末尾</td></tr><tr><td>index()</td><td>返回具有指定值的第一个元素的索引</td></tr><tr><td>insert()</td><td>在指定位置添加元素</td></tr><tr><td>pop()</td><td>删除指定位置的元素</td></tr><tr><td>remove()</td><td>删除具有指定值的项目</td></tr><tr><td>reverse()</td><td>颠倒列表的顺序</td></tr><tr><td>sort()</td><td>对列表进行排序</td></tr></tbody></table><h2 id="元组">元组</h2><h3 id="创建和索引-2">创建和索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mytuple = (<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'cherry'</span>)</span><br><span class="line"><span class="built_in">print</span>(mytuple[1]) <span class="comment">#与列表类似</span></span><br></pre></td></tr></table></figure><h3 id="更改元组值">更改元组值</h3><p>需要将元组更改为列表：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x = (<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'cherry'</span>)</span><br><span class="line">y = list(x)</span><br><span class="line">y[1] = <span class="string">'kiwi'</span> <span class="comment">#转化为列表之后更改</span></span><br><span class="line">x = tuple(y)  <span class="comment">#转化回元组</span></span><br></pre></td></tr></table></figure><p>如果只需要创建有一个项目的元组，即单项元组，需要在之后加上逗号：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mytuple = (<span class="string">'apple'</span>,)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(mytuple))</span><br></pre></td></tr></table></figure><h4 id="注意：">注意：</h4><p>我们无法删除元组的项目，但是可以删除整个元组，使用del。</p><h2 id="集合">集合</h2><h3 id="创建与索引">创建与索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">myset = {<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'pear'</span>}</span><br></pre></td></tr></table></figure><p>集合是无序的</p><h3 id="添加项目">添加项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">myset.add(<span class="string">'orange'</span>) <span class="comment">#单个项目</span></span><br><span class="line">myset.update([<span class="string">'orange'</span>,<span class="string">'mango'</span>])</span><br></pre></td></tr></table></figure><table><thead><tr><th>方法</th><th>描述</th></tr></thead><tbody><tr><td>add()</td><td>向集合添加元素。</td></tr><tr><td>clear()</td><td>删除集合中的所有元素。</td></tr><tr><td>copy()</td><td>返回集合的副本。</td></tr><tr><td>difference()</td><td>返回包含两个或更多集合之间差异的集合。</td></tr><tr><td>difference_update()</td><td>删除此集合中也包含在另一个指定集合中的项目。</td></tr><tr><td>discard()</td><td>删除指定项目。</td></tr><tr><td>intersection()</td><td>返回为两个其他集合的交集的集合。</td></tr><tr><td>intersection_update()</td><td>删除此集合中不存在于其他指定集合中的项目。</td></tr><tr><td>isdisjoint()</td><td>返回两个集合是否有交集。</td></tr><tr><td>issubset()</td><td>返回另一个集合是否包含此集合。</td></tr><tr><td>issuperset()</td><td>返回此集合是否包含另一个集合。</td></tr><tr><td>pop()</td><td>从集合中删除一个元素。</td></tr><tr><td>remove()</td><td>删除指定元素。</td></tr><tr><td>symmetric_difference()</td><td>返回具有两组集合的对称差集的集合。</td></tr><tr><td>symmetric_difference_update()</td><td>插入此集合和另一个集合的对称差集。</td></tr><tr><td>union()</td><td>返回包含集合并集的集合。</td></tr><tr><td>update()</td><td>用此集合和其他集合的并集来更新集合。</td></tr></tbody></table><h2 id="字典">字典</h2><h3 id="创建与索引-2">创建与索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">mydict ={</span><br><span class="line">  <span class="string">"brand"</span>: <span class="string">"Porsche"</span>,</span><br><span class="line">  <span class="string">"model"</span>: <span class="string">"911"</span>,</span><br><span class="line">  <span class="string">"year"</span>: 1963</span><br><span class="line">}</span><br><span class="line"><span class="built_in">print</span>(mydict)</span><br><span class="line">x = mydict[<span class="string">"model"</span>]</span><br><span class="line">x = mydict.get(<span class="string">"model"</span>)  <span class="comment">#获取某个键对应的值</span></span><br></pre></td></tr></table></figure><h3 id="字典的嵌套">字典的嵌套</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">child1 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Phoebe Adele"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 2002</span><br><span class="line">}</span><br><span class="line">child2 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Jennifer Katharine"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 1996</span><br><span class="line">}</span><br><span class="line">child3 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Rory John"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 1999</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">myfamily = {</span><br><span class="line">  <span class="string">"child1"</span> : child1,</span><br><span class="line">  <span class="string">"child2"</span> : child2,</span><br><span class="line">  <span class="string">"child3"</span> : child3</span><br><span class="line">}</span><br></pre></td></tr></table></figure><table><thead><tr><th>clear()</th><th>删除字典中的所有元素</th></tr></thead><tbody><tr><td>copy()</td><td>返回字典的副本</td></tr><tr><td>fromkeys()</td><td>返回拥有指定键和值的字典</td></tr><tr><td>get()</td><td>返回指定键的值</td></tr><tr><td>items()</td><td>返回包含每个键值对的元组的列表</td></tr><tr><td>keys()</td><td>返回包含字典键的列表</td></tr><tr><td>pop()</td><td>删除拥有指定键的元素</td></tr><tr><td>popitem()</td><td>删除最后插入的键值对</td></tr><tr><td>setdefault()</td><td>返回指定键的值。如果该键不存在，则插入具有指定值的键。</td></tr><tr><td>update()</td><td>使用指定的键值对字典进行更新</td></tr><tr><td>values()</td><td>返回字典中所有值的列表</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一些我喜欢的美剧分享</title>
       <link href="/2022/10/04/%E4%B8%80%E4%BA%9B%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BE%8E%E5%89%A7/"/>
       <url>/2022/10/04/%E4%B8%80%E4%BA%9B%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BE%8E%E5%89%A7/</url>
@@ -306,31 +331,6 @@
             <tag> 美剧 </tag>
             
             <tag> 恶搞之家 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Python的列表，元组，集合和词典</title>
-      <link href="/2022/10/04/Python%E7%9A%84%E9%9B%86%E5%90%88%EF%BC%8C%E5%85%83%E7%BB%84%E7%AD%89/"/>
-      <url>/2022/10/04/Python%E7%9A%84%E9%9B%86%E5%90%88%EF%BC%8C%E5%85%83%E7%BB%84%E7%AD%89/</url>
-      
-        <content type="html"><![CDATA[<p>早前接触过Python的时候就被这些定义搞得含混不清，但是不理解的事物会一直成为一个绊脚石。今天下定决心要将这些知识彻底搞懂吸收，故在此写下知识要点。</p><span id="more"></span><p>1.列表（List）是一种有序和可更改的集合。允许重复的成员。2.元组（Tuple）是一种有序且不可更改的集合。允许重复的成员。3.集合（Set）是一个无序和无索引的集合。没有重复的成员。4.词典（Dictionary）是一个无序，可变和有索引的集合。没有重复的成员。</p><h2 id="列表">列表</h2><h3 id="创建和索引">创建和索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">mylist = [<span class="string">'fuck'</span>,<span class="string">'this'</span>,<span class="string">'shit'</span>]</span><br><span class="line"><span class="built_in">print</span>(mylist) <span class="comment">#创建</span></span><br><span class="line"><span class="built_in">print</span>(mylist[1]) <span class="comment">#第一个元素序号是0</span></span><br><span class="line"><span class="built_in">print</span>(mylist[2:5]) <span class="comment">#索引范围</span></span><br><span class="line">mylist[1] = <span class="string">'you'</span> <span class="comment">#更改某一项</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> mylist:</span><br><span class="line">  <span class="built_in">print</span>(x) <span class="comment">#遍历列表</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">'shit'</span> <span class="keyword">in</span> mylist:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">'Oh,yeah!'</span>)</span><br><span class="line">mylist.append(<span class="string">'she'</span>) <span class="comment">#追加项目</span></span><br><span class="line">mylist.insert(2,<span class="string">'bloody'</span>) <span class="comment">#插入项目</span></span><br><span class="line">mylist.remove(<span class="string">'fuck'</span>) <span class="comment">#删除指定项目</span></span><br><span class="line">del mylist[0] <span class="comment">#按索引删除，不加索引即删除整个列表</span></span><br><span class="line">mylist.clear() <span class="comment">#清空列表</span></span><br></pre></td></tr></table></figure><h3 id="复制列表">复制列表</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copylist = mylist.copy()</span><br></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copylist = list(mylist)</span><br></pre></td></tr></table></figure><h3 id="合并列表">合并列表</h3><p>最简单的方式是使用+，如：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list3 = list1 + list2</span><br></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list1.extend(list2)</span><br></pre></td></tr></table></figure><p>总结：</p><table><thead><tr><th>方法</th><th>描述</th></tr></thead><tbody><tr><td>append()</td><td>在列表的末尾添加一个元素</td></tr><tr><td>clear()</td><td>删除列表中的所有元素</td></tr><tr><td>copy()</td><td>返回列表的副本</td></tr><tr><td>count()</td><td>返回具有指定值的元素数量。</td></tr><tr><td>extend()</td><td>将列表元素（或任何可迭代的元素）添加到当前列表的末尾</td></tr><tr><td>index()</td><td>返回具有指定值的第一个元素的索引</td></tr><tr><td>insert()</td><td>在指定位置添加元素</td></tr><tr><td>pop()</td><td>删除指定位置的元素</td></tr><tr><td>remove()</td><td>删除具有指定值的项目</td></tr><tr><td>reverse()</td><td>颠倒列表的顺序</td></tr><tr><td>sort()</td><td>对列表进行排序</td></tr></tbody></table><h2 id="元组">元组</h2><h3 id="创建和索引-2">创建和索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mytuple = (<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'cherry'</span>)</span><br><span class="line"><span class="built_in">print</span>(mytuple[1]) <span class="comment">#与列表类似</span></span><br></pre></td></tr></table></figure><h3 id="更改元组值">更改元组值</h3><p>需要将元组更改为列表：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x = (<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'cherry'</span>)</span><br><span class="line">y = list(x)</span><br><span class="line">y[1] = <span class="string">'kiwi'</span> <span class="comment">#转化为列表之后更改</span></span><br><span class="line">x = tuple(y)  <span class="comment">#转化回元组</span></span><br></pre></td></tr></table></figure><p>如果只需要创建有一个项目的元组，即单项元组，需要在之后加上逗号：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mytuple = (<span class="string">'apple'</span>,)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(mytuple))</span><br></pre></td></tr></table></figure><h4 id="注意：">注意：</h4><p>我们无法删除元组的项目，但是可以删除整个元组，使用del。</p><h2 id="集合">集合</h2><h3 id="创建与索引">创建与索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">myset = {<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'pear'</span>}</span><br></pre></td></tr></table></figure><p>集合是无序的</p><h3 id="添加项目">添加项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">myset.add(<span class="string">'orange'</span>) <span class="comment">#单个项目</span></span><br><span class="line">myset.update([<span class="string">'orange'</span>,<span class="string">'mango'</span>])</span><br></pre></td></tr></table></figure><table><thead><tr><th>方法</th><th>描述</th></tr></thead><tbody><tr><td>add()</td><td>向集合添加元素。</td></tr><tr><td>clear()</td><td>删除集合中的所有元素。</td></tr><tr><td>copy()</td><td>返回集合的副本。</td></tr><tr><td>difference()</td><td>返回包含两个或更多集合之间差异的集合。</td></tr><tr><td>difference_update()</td><td>删除此集合中也包含在另一个指定集合中的项目。</td></tr><tr><td>discard()</td><td>删除指定项目。</td></tr><tr><td>intersection()</td><td>返回为两个其他集合的交集的集合。</td></tr><tr><td>intersection_update()</td><td>删除此集合中不存在于其他指定集合中的项目。</td></tr><tr><td>isdisjoint()</td><td>返回两个集合是否有交集。</td></tr><tr><td>issubset()</td><td>返回另一个集合是否包含此集合。</td></tr><tr><td>issuperset()</td><td>返回此集合是否包含另一个集合。</td></tr><tr><td>pop()</td><td>从集合中删除一个元素。</td></tr><tr><td>remove()</td><td>删除指定元素。</td></tr><tr><td>symmetric_difference()</td><td>返回具有两组集合的对称差集的集合。</td></tr><tr><td>symmetric_difference_update()</td><td>插入此集合和另一个集合的对称差集。</td></tr><tr><td>union()</td><td>返回包含集合并集的集合。</td></tr><tr><td>update()</td><td>用此集合和其他集合的并集来更新集合。</td></tr></tbody></table><h2 id="字典">字典</h2><h3 id="创建与索引-2">创建与索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">mydict ={</span><br><span class="line">  <span class="string">"brand"</span>: <span class="string">"Porsche"</span>,</span><br><span class="line">  <span class="string">"model"</span>: <span class="string">"911"</span>,</span><br><span class="line">  <span class="string">"year"</span>: 1963</span><br><span class="line">}</span><br><span class="line"><span class="built_in">print</span>(mydict)</span><br><span class="line">x = mydict[<span class="string">"model"</span>]</span><br><span class="line">x = mydict.get(<span class="string">"model"</span>)  <span class="comment">#获取某个键对应的值</span></span><br></pre></td></tr></table></figure><h3 id="字典的嵌套">字典的嵌套</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">child1 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Phoebe Adele"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 2002</span><br><span class="line">}</span><br><span class="line">child2 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Jennifer Katharine"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 1996</span><br><span class="line">}</span><br><span class="line">child3 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Rory John"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 1999</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">myfamily = {</span><br><span class="line">  <span class="string">"child1"</span> : child1,</span><br><span class="line">  <span class="string">"child2"</span> : child2,</span><br><span class="line">  <span class="string">"child3"</span> : child3</span><br><span class="line">}</span><br></pre></td></tr></table></figure><table><thead><tr><th>clear()</th><th>删除字典中的所有元素</th></tr></thead><tbody><tr><td>copy()</td><td>返回字典的副本</td></tr><tr><td>fromkeys()</td><td>返回拥有指定键和值的字典</td></tr><tr><td>get()</td><td>返回指定键的值</td></tr><tr><td>items()</td><td>返回包含每个键值对的元组的列表</td></tr><tr><td>keys()</td><td>返回包含字典键的列表</td></tr><tr><td>pop()</td><td>删除拥有指定键的元素</td></tr><tr><td>popitem()</td><td>删除最后插入的键值对</td></tr><tr><td>setdefault()</td><td>返回指定键的值。如果该键不存在，则插入具有指定值的键。</td></tr><tr><td>update()</td><td>使用指定的键值对字典进行更新</td></tr><tr><td>values()</td><td>返回字典中所有值的列表</td></tr></tbody></table>]]></content>
-      
-      
-      <categories>
-          
-          <category> Python </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Python </tag>
             
         </tags>
       
@@ -389,6 +389,31 @@
     
     
     <entry>
+      <title>雅思考试相关</title>
+      <link href="/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/"/>
+      <url>/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/</url>
+      
+        <content type="html"><![CDATA[<p>最近备考雅思和驾照，在此写下雅思考试的相关注意事项。</p><span id="more"></span><h1>考试时间和内容</h1><h2 id="时间">时间</h2><p>基本上每个月的周末都可以进行考试，分为两天，一天笔试(听力，阅读和写作)，一天口语面试。<img src="https://s2.loli.net/2022/06/14/prOfEQP5Fy2IvBh.jpg" alt="考试时间示例图"></p><h2 id="内容">内容</h2><h3 id="笔试">笔试</h3><blockquote><p>听力部分：时间是40分钟，30分钟考试，10分钟答题卡阅读部分：时间是60分钟，40道题目，3-4篇文章写作考试：时间是60分钟，分为大作文小作文</p></blockquote><h3 id="口语面试">口语面试</h3><blockquote><p>分为三部分：part1:基本生活对话part2:由题目发表2分钟讲话part3:在上一节基础上深入对话(可能有变动，要随机应变)</p></blockquote><h2 id="注意事项">注意事项</h2><p>笔试仍然沿用我的老方法，背单词+做真题+研读阅读题。口语部分只能是多读多写，辅导资料不用太多，遵循极简原则，一本书吃透即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 雅思 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 雅思 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>腾讯云的静态网页托管</title>
       <link href="/2022/10/04/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/"/>
       <url>/2022/10/04/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/</url>
@@ -410,31 +435,6 @@
             <tag> 腾讯云 </tag>
             
             <tag> 网页托管 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>雅思考试相关</title>
-      <link href="/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/"/>
-      <url>/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/</url>
-      
-        <content type="html"><![CDATA[<p>最近备考雅思和驾照，在此写下雅思考试的相关注意事项。</p><span id="more"></span><h1>考试时间和内容</h1><h2 id="时间">时间</h2><p>基本上每个月的周末都可以进行考试，分为两天，一天笔试(听力，阅读和写作)，一天口语面试。<img src="https://s2.loli.net/2022/06/14/prOfEQP5Fy2IvBh.jpg" alt="考试时间示例图"></p><h2 id="内容">内容</h2><h3 id="笔试">笔试</h3><blockquote><p>听力部分：时间是40分钟，30分钟考试，10分钟答题卡阅读部分：时间是60分钟，40道题目，3-4篇文章写作考试：时间是60分钟，分为大作文小作文</p></blockquote><h3 id="口语面试">口语面试</h3><blockquote><p>分为三部分：part1:基本生活对话part2:由题目发表2分钟讲话part3:在上一节基础上深入对话(可能有变动，要随机应变)</p></blockquote><h2 id="注意事项">注意事项</h2><p>笔试仍然沿用我的老方法，背单词+做真题+研读阅读题。口语部分只能是多读多写，辅导资料不用太多，遵循极简原则，一本书吃透即可。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 雅思 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 雅思 </tag>
             
         </tags>
       
@@ -562,6 +562,31 @@
     
     
     <entry>
+      <title>Matplotlib学习</title>
+      <link href="/2022/10/04/Matplotlib/"/>
+      <url>/2022/10/04/Matplotlib/</url>
+      
+        <content type="html"><![CDATA[<p>在你开始学习之前，首先要想清楚自己为什么要学。请一定给自己一个足够说服你行动的理由。</p><span id="more"></span><p>实际应用可能会用js框架而不是matplotlib，但是有助于我们进行数据理解。</p><p><strong>Matplotlib是最流行的Python底层绘图库。</strong></p><p>axis轴，指x,y的坐标轴。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 数据分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>LeetCode例题</title>
       <link href="/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/"/>
       <url>/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/</url>
@@ -589,23 +614,25 @@
     
     
     <entry>
-      <title>Matplotlib学习</title>
-      <link href="/2022/10/04/Matplotlib/"/>
-      <url>/2022/10/04/Matplotlib/</url>
+      <title>MySQL学习</title>
+      <link href="/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/</url>
       
-        <content type="html"><![CDATA[<p>在你开始学习之前，首先要想清楚自己为什么要学。请一定给自己一个足够说服你行动的理由。</p><span id="more"></span><p>实际应用可能会用js框架而不是matplotlib，但是有助于我们进行数据理解。</p><p><strong>Matplotlib是最流行的Python底层绘图库。</strong></p><p>axis轴，指x,y的坐标轴。</p>]]></content>
+        <content type="html"><![CDATA[<p>MySQL基本语法</p><span id="more"></span><p>SQL语句主要可以划分为以下3个类别。DDL(Data Definition Languages):数据定义语言，定义数据段，数据库，表，列，索引等DML：数据操作语言，用于添加，删除，更新数据库DCL：数据控制语句，定义用户访问权限和安全级别等等。</p><h1>DDL-数据库操作-创建&amp;查询</h1><h2 id="创建">创建</h2><p>if not exist表示如果数据库名不存在则进行操作，即使存在也不会报错。</p><ul><li>查询</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#查询所有数据库</span><br><span class="line">show databases;</span><br><span class="line">#查询当前数据库</span><br><span class="line">select database();</span><br></pre></td></tr></table></figure><ul><li>创建</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database [if not exist] 数据库名 [default charset] 字符集 [collate] 排序规则;</span><br></pre></td></tr></table></figure><ul><li>删除</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">drop database [if exist] 数据库名;</span><br></pre></td></tr></table></figure><ul><li>使用</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use 数据库名;</span><br></pre></td></tr></table></figure><h2 id="查询">查询</h2><ul><li>查询当前数据库所有的表</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show tables;</span><br></pre></td></tr></table></figure><ul><li>查询表结构</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">desc 表格;</span><br></pre></td></tr></table></figure><ul><li>查询指定表的建表语句（也就是注释以及默认设置）</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show create table 表名;</span><br></pre></td></tr></table></figure><h2 id="DDL-表格操作-数据类型">DDL-表格操作-数据类型</h2><p>MySQL中的数据类型主要有三类：数值类型，字符串类型，日期时间类型。</p><ul><li>数值类型<img src="https://s2.loli.net/2022/08/29/UsyoPIvmgRHdtZT.png" alt="datatype.png"></li><li>字符串类型<img src="https://s2.loli.net/2022/08/29/DfMakbVWd1Bsxli.png" alt="chartype.png"></li><li>日期时间类型<img src="https://s2.loli.net/2022/08/29/vnmKew417RpArjO.png" alt="yeartype.png"></li></ul><h2 id="DDL-表格操作-修改">DDL-表格操作-修改</h2><ul><li>添加字段</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table 表名 add 字段名 类型 [comment];</span><br></pre></td></tr></table></figure><p>-修改数据类型</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#修改数据类型</span><br><span class="line">alter table 表名 modify 字段名 新数据类型；</span><br><span class="line">#修改字段名和字段类型</span><br><span class="line">alter table 表名 change 旧字段名 新字段名 类型 [comment] [约束]；</span><br><span class="line">change和modify都可以修改表的定义，不同的是change后需要写两次列名，不方便，但是change优点是可以修改列名称，modify则不能。</span><br><span class="line">#修改表名（后设表名为emp）</span><br><span class="line">alter table emp rename empl;</span><br></pre></td></tr></table></figure><ul><li>删除</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#删除字段</span><br><span class="line">alter table 表名 drop 字段名;</span><br><span class="line">#删除表格</span><br><span class="line">drop table[if exists] 表名;</span><br><span class="line">#删除指定的表，并重新创建该表</span><br><span class="line">truncate table 表名；</span><br></pre></td></tr></table></figure><h2 id="DML语句">DML语句</h2><p>DML操作是指对数据库中表记录的操作，主要包括表记录的插入（insert），更新（update），删除（delete），查询（select），是开发人员日常使用<strong>最频繁</strong>的操作。</p><h2 id="MySQL常用的图形化界面">MySQL常用的图形化界面</h2><p>Sqlyog,Navicat,DataGrip.</p>]]></content>
       
       
       <categories>
           
-          <category> 数据分析 </category>
+          <category> MySQL </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 机器学习 数据分析 </tag>
+            <tag> 学习 </tag>
+            
+            <tag> MySQL </tag>
             
         </tags>
       
@@ -633,33 +660,6 @@
             <tag> 学习 </tag>
             
             <tag> Numpy </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>MySQL学习</title>
-      <link href="/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/"/>
-      <url>/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/</url>
-      
-        <content type="html"><![CDATA[<p>MySQL基本语法</p><span id="more"></span><p>SQL语句主要可以划分为以下3个类别。DDL(Data Definition Languages):数据定义语言，定义数据段，数据库，表，列，索引等DML：数据操作语言，用于添加，删除，更新数据库DCL：数据控制语句，定义用户访问权限和安全级别等等。</p><h1>DDL-数据库操作-创建&amp;查询</h1><h2 id="创建">创建</h2><p>if not exist表示如果数据库名不存在则进行操作，即使存在也不会报错。</p><ul><li>查询</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#查询所有数据库</span><br><span class="line">show databases;</span><br><span class="line">#查询当前数据库</span><br><span class="line">select database();</span><br></pre></td></tr></table></figure><ul><li>创建</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database [if not exist] 数据库名 [default charset] 字符集 [collate] 排序规则;</span><br></pre></td></tr></table></figure><ul><li>删除</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">drop database [if exist] 数据库名;</span><br></pre></td></tr></table></figure><ul><li>使用</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use 数据库名;</span><br></pre></td></tr></table></figure><h2 id="查询">查询</h2><ul><li>查询当前数据库所有的表</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show tables;</span><br></pre></td></tr></table></figure><ul><li>查询表结构</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">desc 表格;</span><br></pre></td></tr></table></figure><ul><li>查询指定表的建表语句（也就是注释以及默认设置）</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show create table 表名;</span><br></pre></td></tr></table></figure><h2 id="DDL-表格操作-数据类型">DDL-表格操作-数据类型</h2><p>MySQL中的数据类型主要有三类：数值类型，字符串类型，日期时间类型。</p><ul><li>数值类型<img src="https://s2.loli.net/2022/08/29/UsyoPIvmgRHdtZT.png" alt="datatype.png"></li><li>字符串类型<img src="https://s2.loli.net/2022/08/29/DfMakbVWd1Bsxli.png" alt="chartype.png"></li><li>日期时间类型<img src="https://s2.loli.net/2022/08/29/vnmKew417RpArjO.png" alt="yeartype.png"></li></ul><h2 id="DDL-表格操作-修改">DDL-表格操作-修改</h2><ul><li>添加字段</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table 表名 add 字段名 类型 [comment];</span><br></pre></td></tr></table></figure><p>-修改数据类型</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#修改数据类型</span><br><span class="line">alter table 表名 modify 字段名 新数据类型；</span><br><span class="line">#修改字段名和字段类型</span><br><span class="line">alter table 表名 change 旧字段名 新字段名 类型 [comment] [约束]；</span><br><span class="line">change和modify都可以修改表的定义，不同的是change后需要写两次列名，不方便，但是change优点是可以修改列名称，modify则不能。</span><br><span class="line">#修改表名（后设表名为emp）</span><br><span class="line">alter table emp rename empl;</span><br></pre></td></tr></table></figure><ul><li>删除</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#删除字段</span><br><span class="line">alter table 表名 drop 字段名;</span><br><span class="line">#删除表格</span><br><span class="line">drop table[if exists] 表名;</span><br><span class="line">#删除指定的表，并重新创建该表</span><br><span class="line">truncate table 表名；</span><br></pre></td></tr></table></figure><h2 id="DML语句">DML语句</h2><p>DML操作是指对数据库中表记录的操作，主要包括表记录的插入（insert），更新（update），删除（delete），查询（select），是开发人员日常使用<strong>最频繁</strong>的操作。</p><h2 id="MySQL常用的图形化界面">MySQL常用的图形化界面</h2><p>Sqlyog,Navicat,DataGrip.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> MySQL </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习 </tag>
-            
-            <tag> MySQL </tag>
             
         </tags>
       
