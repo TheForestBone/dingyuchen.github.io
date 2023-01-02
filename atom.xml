@@ -6,7 +6,7 @@
   <link href="https://theforestbone.github.io/atom.xml" rel="self"/>
   
   <link href="https://theforestbone.github.io/"/>
-  <updated>2022-11-26T10:37:56.090Z</updated>
+  <updated>2023-01-02T14:59:04.674Z</updated>
   <id>https://theforestbone.github.io/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="https://theforestbone.github.io/2022/11/26/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7%E6%95%B0%E6%8D%AE%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E9%A2%84%E6%B5%8B/"/>
     <id>https://theforestbone.github.io/2022/11/26/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7%E6%95%B0%E6%8D%AE%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E9%A2%84%E6%B5%8B/</id>
     <published>2022-11-26T08:38:48.434Z</published>
-    <updated>2022-11-26T10:37:56.090Z</updated>
+    <updated>2023-01-02T14:59:04.674Z</updated>
     
-    <content type="html"><![CDATA[<p>本文对泰坦尼克号数据进行了简单的逻辑回归分析，但是还有更为充分详细的分析可以供大家参考。比如<a href="https://tianchi.aliyun.com/notebook-ai/detail?spm=5176.12282042.0.0.1dce2042NBc6J6&amp;postId=6772">这里</a></p><p>在开始之前，我们首先要利用pandas包和numpy包导入数据，在源文件中，数据方已经给了分好的训练集和测试集，但为了一般性，我们自己重新将数据进行划分。</p><p>我们先导入包，大致观察：</p><pre><code>import numpy as npimport pandas as pdfull_data = pd.read_csv('C:/Users/Mr.Ding/Desktop/Study/raw_data/titanicdata.csv')#读取数据</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>该部分文件在一些重要文件分享中</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;本文对泰坦尼克号数据进行了简单的逻辑回归分析，但是还有更为充分详细的分析可以供大家参考。比如&lt;a href=&quot;https://tianchi.aliyun.com/notebook-ai/detail?spm=5176.12282042.0.0.1dce2042NBc6J6</summary>
+    <summary type="html">&lt;p&gt;该部分文件在一些重要文件分享中&lt;/p&gt;
+</summary>
       
     
     

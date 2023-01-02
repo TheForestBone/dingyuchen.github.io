@@ -8,7 +8,7 @@
       <link href="/2022/11/26/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7%E6%95%B0%E6%8D%AE%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E9%A2%84%E6%B5%8B/"/>
       <url>/2022/11/26/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7%E6%95%B0%E6%8D%AE%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E9%A2%84%E6%B5%8B/</url>
       
-        <content type="html"><![CDATA[<p>本文对泰坦尼克号数据进行了简单的逻辑回归分析，但是还有更为充分详细的分析可以供大家参考。比如<a href="https://tianchi.aliyun.com/notebook-ai/detail?spm=5176.12282042.0.0.1dce2042NBc6J6&amp;postId=6772">这里</a></p><p>在开始之前，我们首先要利用pandas包和numpy包导入数据，在源文件中，数据方已经给了分好的训练集和测试集，但为了一般性，我们自己重新将数据进行划分。</p><p>我们先导入包，大致观察：</p><pre><code>import numpy as npimport pandas as pdfull_data = pd.read_csv('C:/Users/Mr.Ding/Desktop/Study/raw_data/titanicdata.csv')#读取数据</code></pre>]]></content>
+        <content type="html"><![CDATA[<p>该部分文件在一些重要文件分享中</p>]]></content>
       
       
       <categories>
@@ -560,6 +560,31 @@
     
     
     <entry>
+      <title>Matplotlib学习</title>
+      <link href="/2022/10/04/Matplotlib/"/>
+      <url>/2022/10/04/Matplotlib/</url>
+      
+        <content type="html"><![CDATA[<p>在你开始学习之前，首先要想清楚自己为什么要学。请一定给自己一个足够说服你行动的理由。</p><span id="more"></span><p>实际应用可能会用js框架而不是matplotlib，但是有助于我们进行数据理解。</p><p><strong>Matplotlib是最流行的Python底层绘图库。</strong></p><p>axis轴，指x,y的坐标轴。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 数据分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MySQL学习</title>
       <link href="/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/"/>
       <url>/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/</url>
@@ -633,31 +658,6 @@
             <tag> 学习 </tag>
             
             <tag> Pandas </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Matplotlib学习</title>
-      <link href="/2022/10/04/Matplotlib/"/>
-      <url>/2022/10/04/Matplotlib/</url>
-      
-        <content type="html"><![CDATA[<p>在你开始学习之前，首先要想清楚自己为什么要学。请一定给自己一个足够说服你行动的理由。</p><span id="more"></span><p>实际应用可能会用js框架而不是matplotlib，但是有助于我们进行数据理解。</p><p><strong>Matplotlib是最流行的Python底层绘图库。</strong></p><p>axis轴，指x,y的坐标轴。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 数据分析 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 机器学习 数据分析 </tag>
             
         </tags>
       
