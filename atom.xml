@@ -406,32 +406,6 @@ Markdown的相对目录是从你引用图片的目录开始，按级别搜索，
   </entry>
   
   <entry>
-    <title>腾讯云的静态网页托管</title>
-    <link href="https://theforestbone.github.io/2022/10/04/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/"/>
-    <id>https://theforestbone.github.io/2022/10/04/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/</id>
-    <published>2022-10-03T16:07:35.705Z</published>
-    <updated>2022-06-05T14:05:52.404Z</updated>
-    
-    <content type="html"><![CDATA[<p>由于GitHub的访问速度较慢以及有时会卡字体无法显示，我早日便萌生了找国内代理网页托管的想法，一开始想找gitee，但是gitee审核就需要一天，而且网评并不是很好，于是转而投入了腾讯云的怀抱。腾讯云最近推出了静态页面托管(确实很好用)，可惜由于我搞不清静态页面index.html的具体配置，导致屡屡托管失败，最后感谢舍友张铂湛同志的指点迷津。终于恍然大悟，在此记录一下自己的蠢比行为和正确在腾讯云进行托管的具体操作：</p><span id="more"></span><blockquote><p>更新于2022/6/3：如果你使用腾讯云托管页面之后网页出现问题，请按F12控制台观察报错信息如果是jsdelivr报错，请在你的public文件的index.html文件中将最后的jsdelivr相关代码前面的cdn更改为fastly，因为jsdelivr最近被DNS污染了。具体如下：</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">\&lt;script size=<span class="string">"300"</span> alpha=<span class="string">"0.6"</span> zIndex=<span class="string">"-1"</span> src=<span class="string">"https://fastly.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"</span>&gt;</span><br><span class="line">\&lt;script src=<span class="string">"https://fastly.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"</span> integrity=<span class="string">"sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY="</span> crossorigin=<span class="string">"anonymous"</span>&gt;</span><br></pre></td></tr></table></figure><p>(以上是以我设置的ribbon和鼠标烟花特效为例)重新托管即可成功(网页部署可能需要2分钟的缓冲期，请不要因为你的网页没有光速布置好而生气)</p><h2 id="首先学会区别静态与动态网页">首先学会区别静态与动态网页</h2><p>静态页面可以包含动画或者动效(如果他们是来自你自己电脑的json文件),并不是说一动不动死气沉沉的才叫静态页面。但是如果你的静态页面的某个md/html/json/css文件包含了url链接(也就是说你在运行自己的网站的时候要从别的网站请求资源)，它就被称为动态页面。</p><p><strong>注意</strong>:</p><blockquote><p>大部分的托管网站是不会接受动态托管的因为网站要用自己的服务器发送你的网页，只会要求你把文件上传给他，然后该网站自己解析你的网页文件之后上传。如果你的网页编译时包含程序，数据库。那么就不能使用静态托管，但是可以考虑腾讯云的web应用托管。具体文档可以参考官方</p></blockquote><h2 id="如果你是hexo静态网页">如果你是hexo静态网页</h2><h3 id="准备工作">准备工作</h3><blockquote><p>1.拥有腾讯云账号；(此略)2.创建云开发环境，获得环境 ID；3.安装 Node.js；(此略)4.安装 Cloudbase CLI。</p></blockquote><h3 id="创建环境">创建环境</h3><p>打开腾讯云<a href="https://cloud.tencent.com/login?s_url=https%3A%2F%2Fconsole.cloud.tencent.com%2Ftcb%2Fhosting%2Findex%3FenvId%3Dwww-9gdsry1qee3f312d%26rid%3D4%26moduleName%3D%26tabId%3Dfile">官网</a>，注册，搜索静态页面托管，点击进入。你可以在左侧看到一栏其中包含：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ls:环境，静态网页托管，我的应用，拓展应用</span><br></pre></td></tr></table></figure><p>首先点击环境进行构建，点击新建，选择模板(空白模板即可)，之后输入环境名(无太大作用)，选择hexo配置，之后完成建造。注意你的环境名，腾讯云提供了复制按键。</p><h3 id="安装-Cloudbase-CLI">安装 Cloudbase CLI</h3><p>直接在命令终端进行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -g @cloudbase/cli</span><br></pre></td></tr></table></figure><p>然后输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cloudbase -v</span><br></pre></td></tr></table></figure><p>看到版本号说明安装成功之后在使用cloudbase命令时(cloudbase缩写为tcb)，可能会要求你进行登录，cmd会跳转到你的腾讯云网页，扫码登陆绑定即可。</p><h3 id="进行静态网页托管">进行静态网页托管</h3><p>点击静态网页托管，然后点击开启服务(过程持续3-5分钟)。回到你的hexo根目录，在这里构建一次网页</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>之后进入根目录下的public文件夹，在此git bash</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cloudbase hosting deploy . -e \&lt;你的环境名&gt;  <span class="comment"># 把你的该目录下的所有文件上传到了静态网页托管页面</span></span><br></pre></td></tr></table></figure><p>发现自己的静态网页托管界面(网页版)下出现你的public文件夹内的文件时，点击页面上的默认域名即可进入。配置成功。如果想更改域名，可以去腾讯云购买。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;由于GitHub的访问速度较慢以及有时会卡字体无法显示，我早日便萌生了找国内代理网页托管的想法，一开始想找gitee，但是gitee审核就需要一天，而且网评并不是很好，于是转而投入了腾讯云的怀抱。
-腾讯云最近推出了静态页面托管(确实很好用)，可惜由于我搞不清静态页面index.html的具体配置，导致屡屡托管失败，最后感谢舍友张铂湛同志的指点迷津。终于恍然大悟，在此记录一下自己的蠢比行为和正确在腾讯云进行托管的具体操作：&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://theforestbone.github.io/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://theforestbone.github.io/tags/Hexo/"/>
-    
-    <category term="腾讯云" scheme="https://theforestbone.github.io/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
-    
-    <category term="网页托管" scheme="https://theforestbone.github.io/tags/%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
     <title>雅思考试相关</title>
     <link href="https://theforestbone.github.io/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/"/>
     <id>https://theforestbone.github.io/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/</id>
@@ -512,6 +486,27 @@ Markdown的相对目录是从你引用图片的目录开始，按级别搜索，
     
     
     <category term="涵" scheme="https://theforestbone.github.io/tags/%E6%B6%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>科目一部分知识点总结</title>
+    <link href="https://theforestbone.github.io/2022/10/04/%E7%A7%91%E7%9B%AE%E4%B8%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/"/>
+    <id>https://theforestbone.github.io/2022/10/04/%E7%A7%91%E7%9B%AE%E4%B8%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</id>
+    <published>2022-10-03T16:07:35.689Z</published>
+    <updated>2022-08-23T10:32:40.830Z</updated>
+    
+    <content type="html"><![CDATA[<p>暑假考驾照，在此写下自己的知识点总结，以缩短备考时间。</p><span id="more"></span><h2 id="技巧相关">技巧相关</h2><p>有‘不得’字眼一般都为正确。有‘依次’字眼一般都为正确。有‘可不，可以不’字眼一般为错误。不得超过一般指30公里/小时。</p><blockquote><p>对于能见度-速度-跟车距离的搭配：261-145-520(0代表在50m的可见度范围下应尽快驶离该路段)。</p></blockquote><p>站三口五，指距离公交站，加油站30米，路口50米内不能停车危险距离选最小，其他距离选最大有‘警察不可以’字眼一般为错误。</p><h2 id="逃逸处罚">逃逸处罚</h2><p>未逃逸：3年以下逃逸或情节特别恶劣：3-7年因逃逸致人死亡：7年以上</p><h2 id="醉酒处罚">醉酒处罚</h2><p>在道路上追逐竞驶，醉酒驾驶，处拘役，并处罚金。醉酒后被吊销驾证未满5年不得再次申请。血液中酒精含量为100mg/ml时，属于醉酒驾驶。</p><h2 id="驾驶证丢失补办">驾驶证丢失补办</h2><p>补办期间即使有补办证明也不得驾驶(有‘不得’字眼一般都为正确)。</p><h2 id="实况">实况</h2><p>在路口看到让牌，在路口减速后观察行人，确认安全后通过。在堵车的交叉路口绿灯亮时，也不能驶入交叉路口。前车在左转弯，掉头，超车时，后车不得超车。</p><h2 id="报废">报废</h2><p>驾驶报废车辆，处二百元以上两千元以下罚款，并吊销驾证。</p><h2 id="限速">限速</h2><p>城市道路，无中心线限速30，有中心线限速50。公路，无中心线限速40，有中心线限速70。在单条车道高速公路，车速为60-120。在两条车道高速公路，右侧车速为60-100，左侧车速为100-120。在三条车道高速公路，右侧为60-90，中间为90-110，左侧为110-120。</p><h2 id="高速故障">高速故障</h2><p>警告标志设置距离应为150米之外，普通公路则为50-150米。</p><h2 id="扣留车辆">扣留车辆</h2><p>缺少两证两标志一号牌：驾驶证，行驶证；检验合格标志，保险标志；号牌；身份证和行驶证不可以扣留。</p><h2 id="夜间">夜间</h2><p>夜间会车对向应在150米内改用近光灯</p><h2 id="特殊天气">特殊天气</h2><p>雨天不可以使用紧急制动，容易翻车(笑)。</p><h2 id="行驶优先度">行驶优先度</h2><p>右转让左转，左转让直行。</p><h2 id="超车">超车</h2><p>虚线可以跨越，实线不可跨越。</p><h2 id="交警手势">交警手势</h2><p>这个看B站讲解</p><h2 id="标志">标志</h2><p>遇到停车让行标志，必须在停止线以外停车瞭望，确认安全才可以通行。铁路上，火车头标志是无人看守，栅栏是有人看守。红色斜线一条表示50米。菱形标志是人行横道预告标识线。双黄实线表示禁止标线。</p><h2 id="罚款相关">罚款相关</h2><p>以欺骗，贿赂等取得校车驾驶资格，处2000以下罚款，三年内不得再次申请。考试中有欺骗，贿赂行为，罚款2000以下。组织参与欺骗，贿赂牟取经济利益，处三倍以上五倍经济所得以下罚款，最高不超过十万元。非法安装警报器，处200元以上2000元以下罚款。以欺骗手段补领驾驶证，处200元以上500元以下罚款。</p><h2 id="准驾车型">准驾车型</h2><p>大型客车：A1重型牵引挂车：A2中型客车：B1大型货车：B2</p><h2 id="年限相关">年限相关</h2><p>以欺骗，贿赂等取得驾驶证被吊销后，三年以内不得重新申请。考试中有欺骗，贿赂行为，一年内不得申请。</p><p>高速：小车：20-50 650 12大车： 20 6 20 12普通： 小车 20-50 3 506大车10-20 1 20 6</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;暑假考驾照，在此写下自己的知识点总结，以缩短备考时间。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="驾照" scheme="https://theforestbone.github.io/categories/%E9%A9%BE%E7%85%A7/"/>
+    
+    
+    <category term="科目一" scheme="https://theforestbone.github.io/tags/%E7%A7%91%E7%9B%AE%E4%B8%80/"/>
     
   </entry>
   
