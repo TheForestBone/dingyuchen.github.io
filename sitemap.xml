@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://theforestbone.github.io/2022/10/04/%E7%A7%91%E5%AD%A6%EF%BC%8C%E4%BC%AA%E7%A7%91%E5%AD%A6%E5%92%8C%E9%9D%9E%E7%A7%91%E5%AD%A6/</loc>
+    
+    <lastmod>2023-01-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://theforestbone.github.io/2022/11/26/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7%E6%95%B0%E6%8D%AE%E7%9A%84%E7%AE%80%E5%8D%95%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92%E9%A2%84%E6%B5%8B/</loc>
     
     <lastmod>2022-11-26</lastmod>
@@ -75,15 +84,6 @@
   
   <url>
     <loc>https://theforestbone.github.io/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2022-10-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://theforestbone.github.io/2022/10/04/%E7%A7%91%E5%AD%A6%EF%BC%8C%E4%BC%AA%E7%A7%91%E5%AD%A6%E5%92%8C%E9%9D%9E%E7%A7%91%E5%AD%A6/</loc>
     
     <lastmod>2022-10-04</lastmod>
     
