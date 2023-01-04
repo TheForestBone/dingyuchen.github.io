@@ -58,7 +58,9 @@
       
         <tags>
             
-            <tag> 机器学习 - 逻辑回归 </tag>
+            <tag> 机器学习 </tag>
+            
+            <tag> 逻辑回归 </tag>
             
         </tags>
       
@@ -83,7 +85,9 @@
       
         <tags>
             
-            <tag> 机器学习 - GPU </tag>
+            <tag> 机器学习 </tag>
+            
+            <tag> GPU </tag>
             
         </tags>
       
@@ -614,7 +618,7 @@
       
         <tags>
             
-            <tag> 机器学习 数据分析 </tag>
+            <tag> 数据分析 </tag>
             
         </tags>
       
@@ -659,7 +663,7 @@
       
       <categories>
           
-          <category> Numpy </category>
+          <category> 数据分析 </category>
           
       </categories>
       
@@ -686,7 +690,7 @@
       
       <categories>
           
-          <category> Pandas </category>
+          <category> 数据分析 </category>
           
       </categories>
       
