@@ -1,3 +1,5 @@
+https://theforestbone.github.io/2023/01/02/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/
+https://theforestbone.github.io/2023/01/08/%E5%85%B3%E4%BA%8Ejupyter%E5%A6%82%E4%BD%95%E5%AF%BC%E5%87%BAPDF%E7%9A%84%E7%AE%80%E7%9F%AD%E6%95%99%E7%A8%8B/
 https://theforestbone.github.io/2022/11/11/%E6%9C%9F%E8%B4%A7%E5%92%8C%E8%AF%81%E5%88%B8/
 https://theforestbone.github.io/2022/10/10/%E8%AF%95%E8%AE%B2/
 https://theforestbone.github.io/2022/10/04/Matplotlib/
@@ -7,7 +9,6 @@ https://theforestbone.github.io/2022/10/04/Numpy%E5%AD%A6%E4%B9%A0/
 https://theforestbone.github.io/2022/10/04/Pandas%E5%AD%A6%E4%B9%A0/
 https://theforestbone.github.io/2022/10/04/Pytorch%E5%AD%A6%E4%B9%A0/
 https://theforestbone.github.io/2023/01/04/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91/
-https://theforestbone.github.io/2023/01/02/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/
 https://theforestbone.github.io/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/
 https://theforestbone.github.io/2022/10/04/%E6%88%91%E5%92%8C%E6%B6%B5/
 https://theforestbone.github.io/2022/10/04/%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6%EF%BC%9F/

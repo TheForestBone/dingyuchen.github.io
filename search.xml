@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>关于jupyter如何导出PDF的简短教程</title>
+      <link href="/2023/01/08/%E5%85%B3%E4%BA%8Ejupyter%E5%A6%82%E4%BD%95%E5%AF%BC%E5%87%BAPDF%E7%9A%84%E7%AE%80%E7%9F%AD%E6%95%99%E7%A8%8B/"/>
+      <url>/2023/01/08/%E5%85%B3%E4%BA%8Ejupyter%E5%A6%82%E4%BD%95%E5%AF%BC%E5%87%BAPDF%E7%9A%84%E7%AE%80%E7%9F%AD%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>在此应秦康翔同学的提议，写下jupyter导出PDF的一份简短教程。首先假设你的电脑已经安装了jupyter。那么你还需要做如下工作：</p><ul><li>安装MiKTex</li><li>修改tex文件</li><li>使用命令行编译</li></ul><h2 id="安装MikTex">安装MikTex</h2><p>其安装地址在<a href="https://miktex.org/download">这里</a>。点击进入后根据你的操作系统选择Download即可，然后一路next（可以更改安装位置，不一定在C盘）</p><p>MiKTex作为一种tex语言发行系统，只包含最基本的部件，只有200多M，而同为tex发行系统的Tex Live大得多，大概是5个G。MiKTex的理念就是，需要什么部件到时候再下，不用我就不下。</p><p>值得庆幸的是你不需要完全掌握LaTex语言就可以利用MiKTex编译jupyter的PDF文件。</p><p>安装完成后，打开你的jupyter要编译的文件：<img src="https://s2.loli.net/2023/01/08/dhayI2ZBWxCcHMD.png" alt="pdf.png">点击LaTeX即可。</p><p>如果出现404页面，请将你的latex添加到环境变量中，具体添加步骤参考<a href="https://blog.csdn.net/qq_34159047/article/details/122548290">这里</a></p><p>之后在此进行打印就会提示你安装一些包，依次安装即可。</p><h2 id="修改tex文件">修改tex文件</h2><p>第一步我们会输出一个tex文件压缩包，但是此时我们编译会出现各种各样的问题，例如中文不兼容和换行问题等等。这是我们就需要解压后修改tex文件，打开你输出的tex文件，在</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\documentclass{article}</span><br></pre></td></tr></table></figure><p>之后加入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">\usepackage{fontspec, xunicode, xltxtra}</span><br><span class="line">\setmainfont{Microsoft YaHei}</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>如果最后输出还是有误，请在最后一行补上\usepackage{ctex}。</p><h2 id="用命令行编译">用命令行编译</h2><p>打开命令行，定位到你tex文件的位置，右键点击空白处，打开命令行（或者叫在终端中打开），输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xelatex yourNotebookName.tex</span><br></pre></td></tr></table></figure><p>此处把yourNotebookName更改为你自己的tex文件名</p><p>最后他会在tex原文件夹生成一份pdf，就是你想要的最终版，排版较为美观，比word一步步粘贴舒服多了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据分析 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>研究生期间学习规划</title>
       <link href="/2023/01/04/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91/"/>
       <url>/2023/01/04/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91/</url>
@@ -23,7 +42,7 @@
     
     
     <entry>
-      <title>files</title>
+      <title>文件分享</title>
       <link href="/2023/01/02/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
       <url>/2023/01/02/%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB/</url>
       
