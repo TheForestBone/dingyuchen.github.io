@@ -226,31 +226,6 @@
   </entry>
   
   <entry>
-    <title>6-4日记</title>
-    <link href="https://theforestbone.github.io/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
-    <id>https://theforestbone.github.io/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</id>
-    <published>2022-10-03T16:07:35.720Z</published>
-    <updated>2023-01-08T03:32:29.855Z</updated>
-    
-    <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的博客](<a href="https://io-oi.me/">https://io-oi.me/</a>)，被其精美且小清新范的页面深深吸引了。今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的深造意愿。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;前几日观赏了reuixiy大佬的博客](&lt;a href=&quot;https://io-oi.me/&quot;&gt;https://io-oi.me/&lt;/a&gt;)，被其精美且小清新范的页面深深吸引了。
-今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格</summary>
-      
-    
-    
-    
-    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-    <category term="日记" scheme="https://theforestbone.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>关于Coding不支持静态网页托管的态度</title>
     <link href="https://theforestbone.github.io/2022/10/04/Coding%E4%B8%8D%E6%94%AF%E6%8C%81%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/"/>
     <id>https://theforestbone.github.io/2022/10/04/Coding%E4%B8%8D%E6%94%AF%E6%8C%81%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/</id>
@@ -515,6 +490,27 @@ Markdown的相对目录是从你引用图片的目录开始，按级别搜索，
     
     
     <category term="日记" scheme="https://theforestbone.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中外教材对比</title>
+    <link href="https://theforestbone.github.io/2022/10/04/%E4%B8%AD%E5%A4%96%E6%95%99%E6%9D%90%E5%AF%B9%E6%AF%94/"/>
+    <id>https://theforestbone.github.io/2022/10/04/%E4%B8%AD%E5%A4%96%E6%95%99%E6%9D%90%E5%AF%B9%E6%AF%94/</id>
+    <published>2022-10-03T16:07:35.689Z</published>
+    <updated>2022-08-23T12:34:40.204Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在微信读书泡了好几天，感受到最深的就是中外书籍的差异。</p><span id="more"></span><p>相同类型的Python教程，国内书籍给我的感觉就是格式化，固定化，官话套话。一句话你要品很久但迟迟找不到例子加以佐证加深记忆。很多话一笔带过，一本机器学习书一千多页恨不得把所有的cs内容吃进来，以至于每一节都很浅，根本云里雾里，有时候给你扔好几页代码，这节就结束了。</p><p>国外的书像是在讲故事，他不花太长时间给你讲代码，而是带着你品历史（类似西瓜书，但是西瓜书的历史太长了），做朋友。他不在乎给你讲了多少知识，而在于你懂了多少。</p><p>另外一个小细节，国内的那些知识拼接书基本上没有？和！，也没有我们，我之类的字眼。基本上全是陈述句，就像我们的高中教材一样。</p><p>建议各位同学还是有空去阅读国外的教材和书籍，中外教育水平的差距或许比你想象中要巨大。</p><p>今天阅读了国内某拼接书，从186页直接给你塞五页代码，让你自己研究爬虫，令我苦不堪言。</p><p>希望以后的大学教材是由各位与时代接轨的同学们主编。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最近在微信读书泡了好几天，感受到最深的就是中外书籍的差异。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="学习" scheme="https://theforestbone.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   

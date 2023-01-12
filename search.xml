@@ -190,31 +190,6 @@
     
     
     <entry>
-      <title>6-4日记</title>
-      <link href="/2022/10/04/6-4%E9%9A%8F%E6%83%B3/"/>
-      <url>/2022/10/04/6-4%E9%9A%8F%E6%83%B3/</url>
-      
-        <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的博客](<a href="https://io-oi.me/">https://io-oi.me/</a>)，被其精美且小清新范的页面深深吸引了。今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的深造意愿。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 日记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于Coding不支持静态网页托管的态度</title>
       <link href="/2022/10/04/Coding%E4%B8%8D%E6%94%AF%E6%8C%81%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/"/>
       <url>/2022/10/04/Coding%E4%B8%8D%E6%94%AF%E6%8C%81%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/</url>
