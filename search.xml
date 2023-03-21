@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>研一下学期</title>
+      <link href="/2023/03/21/%E7%A0%94%E4%B8%80%E4%B8%8B%E5%AD%A6%E6%9C%9F/"/>
+      <url>/2023/03/21/%E7%A0%94%E4%B8%80%E4%B8%8B%E5%AD%A6%E6%9C%9F/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于csv文件转为python列表出现NaN值的解决方法</title>
       <link href="/2023/02/20/%E5%85%B3%E4%BA%8Ecsv%E6%96%87%E4%BB%B6%E8%BD%AC%E4%B8%BApython%E5%88%97%E8%A1%A8%E5%87%BA%E7%8E%B0NaN%E5%80%BC%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
       <url>/2023/02/20/%E5%85%B3%E4%BA%8Ecsv%E6%96%87%E4%BB%B6%E8%BD%AC%E4%B8%BApython%E5%88%97%E8%A1%A8%E5%87%BA%E7%8E%B0NaN%E5%80%BC%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
@@ -254,9 +279,9 @@
             
             <tag> 数据分析 </tag>
             
-            <tag> 爬虫 </tag>
-            
             <tag> Python </tag>
+            
+            <tag> 爬虫 </tag>
             
         </tags>
       
@@ -419,6 +444,19 @@
     
     
     <entry>
+      <title></title>
+      <link href="/2022/10/04/%E8%80%83%E7%A0%94%E6%84%9F%E6%83%B3/"/>
+      <url>/2022/10/04/%E8%80%83%E7%A0%94%E6%84%9F%E6%83%B3/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title: 考研感想与建议categories: 考研tags:</p><ul><li>考研top_img: /img/white_machine.pngcover: /img/chan.jpg</li></ul><hr><p>由于这是一篇经验贴，我会把个人的感情总结放在后面，你会在文章的最前面就能看到干货。</p><span id="more"></span><h2 id="报考院校与分数">报考院校与分数</h2><p>报考院校：山东大学金融研究院分数：</p><table><thead><tr><th>科目</th><th>分数</th></tr></thead><tbody><tr><td>政治</td><td>66</td></tr><tr><td>英二</td><td>82</td></tr><tr><td>432专业课</td><td>98</td></tr><tr><td>396经济学联考</td><td>121</td></tr><tr><td>总分</td><td>367</td></tr></tbody></table><p>初试排名30/38,复试排名24/30。本专业报考人数预估在140-160之间。</p><h2 id="个人基础与能力">个人基础与能力</h2><p>西南大学数学与统计学院统计系本科生，排名在37/60左右。GPA并不高，在专业并不算优等生。曾经在学生会工作，担任过辩论队副队长，参加过很多次大美赛但无果。(tips：大美赛获奖的关键或许不在你的理论模型，而在于你的可视化表达。)和我的队伍获得过一些辩论奖项，但与考研无关。</p><h2 id="考研准备工作">考研准备工作</h2><h3 id="院校和专业的确定">院校和专业的确定</h3><p>考研永远是选择大于努力的，学校的选择跟你高考时期的选择标准是一样的。我单方面认为城市的权重要大一些，其次是学校的牌子。C9或者大部分985的牌子到哪里都是响当当的，在该城市本地更是地位优越，校招时是一块香饽饽。此外关于专业，如果不是特别讨厌统计学，我的建议是不要轻易跨考。但也不是绝对，难度大一些罢了，详情可以咨询我的舍友张铂湛，他从统计学顺利跨考进入电子科技大学的计算机王牌专业。</p><h3 id="报录比和考试目录查询">报录比和考试目录查询</h3><p>不要去轻易相信百度的考研辅导机构。相关信息可以去一下网站找到：1.知乎经验贴，有的学姐会出售第一手考研资料，不过首先你要确认学姐真实身份，辅导机构一律跳过2.你要报考的学校的研究生招生网3.你要报考的学院的官网特别注意年份，有的学校会偷偷更改参考书目和考试科目，而只发一个小小的通知。(山东大学金融研究院就在2021年偷偷把数三换成了396，但这其实是统计学的一个大趋势)</p><h3 id="网课内容获取">网课内容获取</h3><p>资本主义方式：购买老师的正规网课，支持正版，价格在2000元左右。社会主义方式：拼多多购买百度网盘网课，价格在10元左右。</p><h2 id="考试各科目">考试各科目</h2><p>1.政治我用的是<strong>徐涛</strong>和<strong>肖秀荣</strong>，至于腿姐，我备考时从来没有去了解过。单方面认为跟老师只需要跟一到两个就行了，任何一个老师肯定有长处和短处，但是没必要因为老师某个板块不是那么突出而放弃他，因为就算是短板也一定比你我的基础强。肖秀荣教授的书仍然是第一首选，我的建议是当故事一样读，只需要了解大概，知道基本过程，有一个总体政治观念。其次徐涛的书显得备考性强，似乎是为了考点而出的书，优点在于实用性强，集成性强，缺点在于普适性弱，不适合想突破高分的同学。但是当你把两本书组合起来的时候，就可以根据徐涛的重点去肖秀荣的书上划知识点。取其精华，去其糟粕。</p><p>2.英语我从初中一直秉持的英语观念：当你沉浸在英语里，就会说英语了。我很喜欢接触英语，不仅体现在我网易云歌单里2000多首歌1900都是英文，更体现在我喜欢记住每一个美剧里不认识的单词。如果你想从美剧中练习英语，可以参考我博客里<a href="https://theforestbone.github.io/2022/06/04/%E4%B8%80%E4%BA%9B%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BE%8E%E5%89%A7/">一些我喜欢的美剧分享</a>。让自己沉浸在英语的环境中，是学习英语的诀窍，也是学习每一种语言的诀窍。如果你英语确实是短板，我建议多去了解一下美国或英国的历史，接触一下国外的信息。在中文的环境下只靠背单词是没有办法突破的。此外，背单词软件我推荐的是<strong>墨墨</strong>。</p><p>3.432专业课关于专业课，每个学校的参考书目都大不相同，有的考茆诗松有的考贾俊平，贾俊平的书更基础，所以考这本书的学校432分要高一些。茆诗松的书在于难度和深度，更难啃，但啃干净了收获也很大。我的专业课并不好，所以预估分数也不高，我们这一届由于题目难度增大，平均分从去年的130多到了今年的110多，而且今年山东大学出了一个超纲题目，15分，很多同学都没有做出来。也导致分数线下降不少。关于<strong>贾俊平</strong>的书，你可以去咨询我的老舍友郭汶朋，他今年上岸北京师范大学，专业考试的科目就是贾俊平和茆诗松的组合。关于<strong>茆诗松</strong>，我的建议是课后题一个一个啃，所有的统计学概念要记牢，但主体还是按照你们学校的大纲和往年试题来看。其他课本外的统计学基本常识要了解，比如聚类分析或者蒙特卡洛模拟。</p><p>4.396经济学联考这一部分原来是数三，但是经济学联考改革是大趋势，很多高校都率先进行了改革。也说明了统计学开始与实践接轨。396具体分为三部分：数学，逻辑与作文。1.数学部分大体内容与数三相似，不过题目难度下降了大约15%，我的建议是按照数三来复习。跟汤家凤就可以。张宇的题目难度较高，适合基础较好的同学进行再次拔高。2.逻辑部分是对于大部分同学而言崭新的区域，我跟的是<strong>赵鑫全</strong>老师，是逻辑学的老牌教师了。建议先刷题，20道逻辑题如果能对17-18个就可以先放一放，最后几个月再看一下。否则还是要跟着老师的网课走。3.作文部分分为大小作文，小作文是对一部分逻辑论证纠错，大作文是对一些时政或问题进行逻辑分析。大部分拉分差距都不在此，了解大致写作思路即可。</p><h2 id="其他">其他</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">不积跬步无以至千里，请不要把经验贴当做行动指南，任何人的经验贴都不能百分之百对他人适用。</span><br><span class="line">我本身不是那种学习的大佬，我希望你在阅读我的文章时抱着学习的态度而不是批判的眼光，智者也能从愚者身上学到乐观，况且我们都是学者。</span><br><span class="line">如果你还有想进一步与我讨论的问题，这是我的QQ：635974460。</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>雅思考试相关</title>
       <link href="/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/"/>
       <url>/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/</url>
@@ -438,19 +476,6 @@
             <tag> 雅思 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2022/10/04/%E8%80%83%E7%A0%94%E6%84%9F%E6%83%B3/"/>
-      <url>/2022/10/04/%E8%80%83%E7%A0%94%E6%84%9F%E6%83%B3/</url>
-      
-        <content type="html"><![CDATA[<hr><p>title: 考研感想与建议categories: 考研tags:</p><ul><li>考研top_img: /img/white_machine.pngcover: /img/chan.jpg</li></ul><hr><p>由于这是一篇经验贴，我会把个人的感情总结放在后面，你会在文章的最前面就能看到干货。</p><span id="more"></span><h2 id="报考院校与分数">报考院校与分数</h2><p>报考院校：山东大学金融研究院分数：</p><table><thead><tr><th>科目</th><th>分数</th></tr></thead><tbody><tr><td>政治</td><td>66</td></tr><tr><td>英二</td><td>82</td></tr><tr><td>432专业课</td><td>98</td></tr><tr><td>396经济学联考</td><td>121</td></tr><tr><td>总分</td><td>367</td></tr></tbody></table><p>初试排名30/38,复试排名24/30。本专业报考人数预估在140-160之间。</p><h2 id="个人基础与能力">个人基础与能力</h2><p>西南大学数学与统计学院统计系本科生，排名在37/60左右。GPA并不高，在专业并不算优等生。曾经在学生会工作，担任过辩论队副队长，参加过很多次大美赛但无果。(tips：大美赛获奖的关键或许不在你的理论模型，而在于你的可视化表达。)和我的队伍获得过一些辩论奖项，但与考研无关。</p><h2 id="考研准备工作">考研准备工作</h2><h3 id="院校和专业的确定">院校和专业的确定</h3><p>考研永远是选择大于努力的，学校的选择跟你高考时期的选择标准是一样的。我单方面认为城市的权重要大一些，其次是学校的牌子。C9或者大部分985的牌子到哪里都是响当当的，在该城市本地更是地位优越，校招时是一块香饽饽。此外关于专业，如果不是特别讨厌统计学，我的建议是不要轻易跨考。但也不是绝对，难度大一些罢了，详情可以咨询我的舍友张铂湛，他从统计学顺利跨考进入电子科技大学的计算机王牌专业。</p><h3 id="报录比和考试目录查询">报录比和考试目录查询</h3><p>不要去轻易相信百度的考研辅导机构。相关信息可以去一下网站找到：1.知乎经验贴，有的学姐会出售第一手考研资料，不过首先你要确认学姐真实身份，辅导机构一律跳过2.你要报考的学校的研究生招生网3.你要报考的学院的官网特别注意年份，有的学校会偷偷更改参考书目和考试科目，而只发一个小小的通知。(山东大学金融研究院就在2021年偷偷把数三换成了396，但这其实是统计学的一个大趋势)</p><h3 id="网课内容获取">网课内容获取</h3><p>资本主义方式：购买老师的正规网课，支持正版，价格在2000元左右。社会主义方式：拼多多购买百度网盘网课，价格在10元左右。</p><h2 id="考试各科目">考试各科目</h2><p>1.政治我用的是<strong>徐涛</strong>和<strong>肖秀荣</strong>，至于腿姐，我备考时从来没有去了解过。单方面认为跟老师只需要跟一到两个就行了，任何一个老师肯定有长处和短处，但是没必要因为老师某个板块不是那么突出而放弃他，因为就算是短板也一定比你我的基础强。肖秀荣教授的书仍然是第一首选，我的建议是当故事一样读，只需要了解大概，知道基本过程，有一个总体政治观念。其次徐涛的书显得备考性强，似乎是为了考点而出的书，优点在于实用性强，集成性强，缺点在于普适性弱，不适合想突破高分的同学。但是当你把两本书组合起来的时候，就可以根据徐涛的重点去肖秀荣的书上划知识点。取其精华，去其糟粕。</p><p>2.英语我从初中一直秉持的英语观念：当你沉浸在英语里，就会说英语了。我很喜欢接触英语，不仅体现在我网易云歌单里2000多首歌1900都是英文，更体现在我喜欢记住每一个美剧里不认识的单词。如果你想从美剧中练习英语，可以参考我博客里<a href="https://theforestbone.github.io/2022/06/04/%E4%B8%80%E4%BA%9B%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BE%8E%E5%89%A7/">一些我喜欢的美剧分享</a>。让自己沉浸在英语的环境中，是学习英语的诀窍，也是学习每一种语言的诀窍。如果你英语确实是短板，我建议多去了解一下美国或英国的历史，接触一下国外的信息。在中文的环境下只靠背单词是没有办法突破的。此外，背单词软件我推荐的是<strong>墨墨</strong>。</p><p>3.432专业课关于专业课，每个学校的参考书目都大不相同，有的考茆诗松有的考贾俊平，贾俊平的书更基础，所以考这本书的学校432分要高一些。茆诗松的书在于难度和深度，更难啃，但啃干净了收获也很大。我的专业课并不好，所以预估分数也不高，我们这一届由于题目难度增大，平均分从去年的130多到了今年的110多，而且今年山东大学出了一个超纲题目，15分，很多同学都没有做出来。也导致分数线下降不少。关于<strong>贾俊平</strong>的书，你可以去咨询我的老舍友郭汶朋，他今年上岸北京师范大学，专业考试的科目就是贾俊平和茆诗松的组合。关于<strong>茆诗松</strong>，我的建议是课后题一个一个啃，所有的统计学概念要记牢，但主体还是按照你们学校的大纲和往年试题来看。其他课本外的统计学基本常识要了解，比如聚类分析或者蒙特卡洛模拟。</p><p>4.396经济学联考这一部分原来是数三，但是经济学联考改革是大趋势，很多高校都率先进行了改革。也说明了统计学开始与实践接轨。396具体分为三部分：数学，逻辑与作文。1.数学部分大体内容与数三相似，不过题目难度下降了大约15%，我的建议是按照数三来复习。跟汤家凤就可以。张宇的题目难度较高，适合基础较好的同学进行再次拔高。2.逻辑部分是对于大部分同学而言崭新的区域，我跟的是<strong>赵鑫全</strong>老师，是逻辑学的老牌教师了。建议先刷题，20道逻辑题如果能对17-18个就可以先放一放，最后几个月再看一下。否则还是要跟着老师的网课走。3.作文部分分为大小作文，小作文是对一部分逻辑论证纠错，大作文是对一些时政或问题进行逻辑分析。大部分拉分差距都不在此，了解大致写作思路即可。</p><h2 id="其他">其他</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">不积跬步无以至千里，请不要把经验贴当做行动指南，任何人的经验贴都不能百分之百对他人适用。</span><br><span class="line">我本身不是那种学习的大佬，我希望你在阅读我的文章时抱着学习的态度而不是批判的眼光，智者也能从愚者身上学到乐观，况且我们都是学者。</span><br><span class="line">如果你还有想进一步与我讨论的问题，这是我的QQ：635974460。</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
       
     </entry>
     
@@ -576,6 +601,31 @@
     
     
     <entry>
+      <title>Matplotlib学习</title>
+      <link href="/2022/10/04/Matplotlib/"/>
+      <url>/2022/10/04/Matplotlib/</url>
+      
+        <content type="html"><![CDATA[<p>在你开始学习之前，首先要想清楚自己为什么要学。请一定给自己一个足够说服你行动的理由。</p><span id="more"></span><p>实际应用可能会用js框架而不是matplotlib，但是有助于我们进行数据理解。</p><p><strong>Matplotlib是最流行的Python底层绘图库。</strong></p><p>axis轴，指x,y的坐标轴。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据分析 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>LeetCode例题</title>
       <link href="/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/"/>
       <url>/2022/10/04/LeetCode%E4%BE%8B%E9%A2%98/</url>
@@ -603,23 +653,25 @@
     
     
     <entry>
-      <title>Matplotlib学习</title>
-      <link href="/2022/10/04/Matplotlib/"/>
-      <url>/2022/10/04/Matplotlib/</url>
+      <title>MySQL学习</title>
+      <link href="/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/</url>
       
-        <content type="html"><![CDATA[<p>在你开始学习之前，首先要想清楚自己为什么要学。请一定给自己一个足够说服你行动的理由。</p><span id="more"></span><p>实际应用可能会用js框架而不是matplotlib，但是有助于我们进行数据理解。</p><p><strong>Matplotlib是最流行的Python底层绘图库。</strong></p><p>axis轴，指x,y的坐标轴。</p>]]></content>
+        <content type="html"><![CDATA[<p>MySQL基本语法</p><span id="more"></span><p>SQL语句主要可以划分为以下3个类别。DDL(Data Definition Languages):数据定义语言，定义数据段，数据库，表，列，索引等DML：数据操作语言，用于添加，删除，更新数据库DCL：数据控制语句，定义用户访问权限和安全级别等等。</p><h1>DDL-数据库操作-创建&amp;查询</h1><h2 id="创建">创建</h2><p>if not exist表示如果数据库名不存在则进行操作，即使存在也不会报错。</p><ul><li>查询</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#查询所有数据库</span><br><span class="line">show databases;</span><br><span class="line">#查询当前数据库</span><br><span class="line">select database();</span><br></pre></td></tr></table></figure><ul><li>创建</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database [if not exist] 数据库名 [default charset] 字符集 [collate] 排序规则;</span><br></pre></td></tr></table></figure><ul><li>删除</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">drop database [if exist] 数据库名;</span><br></pre></td></tr></table></figure><ul><li>使用</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use 数据库名;</span><br></pre></td></tr></table></figure><h2 id="查询">查询</h2><ul><li>查询当前数据库所有的表</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show tables;</span><br></pre></td></tr></table></figure><ul><li>查询表结构</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">desc 表格;</span><br></pre></td></tr></table></figure><ul><li>查询指定表的建表语句（也就是注释以及默认设置）</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show create table 表名;</span><br></pre></td></tr></table></figure><h2 id="DDL-表格操作-数据类型">DDL-表格操作-数据类型</h2><p>MySQL中的数据类型主要有三类：数值类型，字符串类型，日期时间类型。</p><ul><li>数值类型<img src="https://s2.loli.net/2022/08/29/UsyoPIvmgRHdtZT.png" alt="datatype.png"></li><li>字符串类型<img src="https://s2.loli.net/2022/08/29/DfMakbVWd1Bsxli.png" alt="chartype.png"></li><li>日期时间类型<img src="https://s2.loli.net/2022/08/29/vnmKew417RpArjO.png" alt="yeartype.png"></li></ul><h2 id="DDL-表格操作-修改">DDL-表格操作-修改</h2><ul><li>添加字段</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table 表名 add 字段名 类型 [comment];</span><br></pre></td></tr></table></figure><p>-修改数据类型</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#修改数据类型</span><br><span class="line">alter table 表名 modify 字段名 新数据类型；</span><br><span class="line">#修改字段名和字段类型</span><br><span class="line">alter table 表名 change 旧字段名 新字段名 类型 [comment] [约束]；</span><br><span class="line">change和modify都可以修改表的定义，不同的是change后需要写两次列名，不方便，但是change优点是可以修改列名称，modify则不能。</span><br><span class="line">#修改表名（后设表名为emp）</span><br><span class="line">alter table emp rename empl;</span><br></pre></td></tr></table></figure><ul><li>删除</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#删除字段</span><br><span class="line">alter table 表名 drop 字段名;</span><br><span class="line">#删除表格</span><br><span class="line">drop table[if exists] 表名;</span><br><span class="line">#删除指定的表，并重新创建该表</span><br><span class="line">truncate table 表名；</span><br></pre></td></tr></table></figure><h2 id="DML语句">DML语句</h2><p>DML操作是指对数据库中表记录的操作，主要包括表记录的插入（insert），更新（update），删除（delete），查询（select），是开发人员日常使用<strong>最频繁</strong>的操作。</p><h2 id="MySQL常用的图形化界面">MySQL常用的图形化界面</h2><p>Sqlyog,Navicat,DataGrip.</p>]]></content>
       
       
       <categories>
           
-          <category> 数据分析 </category>
+          <category> MySQL </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 数据分析 </tag>
+            <tag> 学习 </tag>
+            
+            <tag> MySQL </tag>
             
         </tags>
       
@@ -647,33 +699,6 @@
             <tag> 学习 </tag>
             
             <tag> Numpy </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>MySQL学习</title>
-      <link href="/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/"/>
-      <url>/2022/10/04/MySQL%E5%AD%A6%E4%B9%A0/</url>
-      
-        <content type="html"><![CDATA[<p>MySQL基本语法</p><span id="more"></span><p>SQL语句主要可以划分为以下3个类别。DDL(Data Definition Languages):数据定义语言，定义数据段，数据库，表，列，索引等DML：数据操作语言，用于添加，删除，更新数据库DCL：数据控制语句，定义用户访问权限和安全级别等等。</p><h1>DDL-数据库操作-创建&amp;查询</h1><h2 id="创建">创建</h2><p>if not exist表示如果数据库名不存在则进行操作，即使存在也不会报错。</p><ul><li>查询</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#查询所有数据库</span><br><span class="line">show databases;</span><br><span class="line">#查询当前数据库</span><br><span class="line">select database();</span><br></pre></td></tr></table></figure><ul><li>创建</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database [if not exist] 数据库名 [default charset] 字符集 [collate] 排序规则;</span><br></pre></td></tr></table></figure><ul><li>删除</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">drop database [if exist] 数据库名;</span><br></pre></td></tr></table></figure><ul><li>使用</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use 数据库名;</span><br></pre></td></tr></table></figure><h2 id="查询">查询</h2><ul><li>查询当前数据库所有的表</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show tables;</span><br></pre></td></tr></table></figure><ul><li>查询表结构</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">desc 表格;</span><br></pre></td></tr></table></figure><ul><li>查询指定表的建表语句（也就是注释以及默认设置）</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show create table 表名;</span><br></pre></td></tr></table></figure><h2 id="DDL-表格操作-数据类型">DDL-表格操作-数据类型</h2><p>MySQL中的数据类型主要有三类：数值类型，字符串类型，日期时间类型。</p><ul><li>数值类型<img src="https://s2.loli.net/2022/08/29/UsyoPIvmgRHdtZT.png" alt="datatype.png"></li><li>字符串类型<img src="https://s2.loli.net/2022/08/29/DfMakbVWd1Bsxli.png" alt="chartype.png"></li><li>日期时间类型<img src="https://s2.loli.net/2022/08/29/vnmKew417RpArjO.png" alt="yeartype.png"></li></ul><h2 id="DDL-表格操作-修改">DDL-表格操作-修改</h2><ul><li>添加字段</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table 表名 add 字段名 类型 [comment];</span><br></pre></td></tr></table></figure><p>-修改数据类型</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#修改数据类型</span><br><span class="line">alter table 表名 modify 字段名 新数据类型；</span><br><span class="line">#修改字段名和字段类型</span><br><span class="line">alter table 表名 change 旧字段名 新字段名 类型 [comment] [约束]；</span><br><span class="line">change和modify都可以修改表的定义，不同的是change后需要写两次列名，不方便，但是change优点是可以修改列名称，modify则不能。</span><br><span class="line">#修改表名（后设表名为emp）</span><br><span class="line">alter table emp rename empl;</span><br></pre></td></tr></table></figure><ul><li>删除</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#删除字段</span><br><span class="line">alter table 表名 drop 字段名;</span><br><span class="line">#删除表格</span><br><span class="line">drop table[if exists] 表名;</span><br><span class="line">#删除指定的表，并重新创建该表</span><br><span class="line">truncate table 表名；</span><br></pre></td></tr></table></figure><h2 id="DML语句">DML语句</h2><p>DML操作是指对数据库中表记录的操作，主要包括表记录的插入（insert），更新（update），删除（delete），查询（select），是开发人员日常使用<strong>最频繁</strong>的操作。</p><h2 id="MySQL常用的图形化界面">MySQL常用的图形化界面</h2><p>Sqlyog,Navicat,DataGrip.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> MySQL </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习 </tag>
-            
-            <tag> MySQL </tag>
             
         </tags>
       
