@@ -6,7 +6,7 @@
   <link href="https://theforestbone.github.io/atom.xml" rel="self"/>
   
   <link href="https://theforestbone.github.io/"/>
-  <updated>2023-03-22T00:11:16.017Z</updated>
+  <updated>2023-03-31T05:39:11.241Z</updated>
   <id>https://theforestbone.github.io/</id>
   
   <author>
@@ -15,6 +15,143 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>杂念</title>
+    <link href="https://theforestbone.github.io/2023/03/29/%E9%93%B6%E8%A1%8C%E9%97%B4/"/>
+    <id>https://theforestbone.github.io/2023/03/29/%E9%93%B6%E8%A1%8C%E9%97%B4/</id>
+    <published>2023-03-29T02:19:04.347Z</published>
+    <updated>2023-03-31T05:39:11.241Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="e2ad099bbc68df4ca43e69807fb8872c107548a73b0b68d3e4dd406b1915a5d4">4cbd0773a7c42717430787391c84fc5c3b1bc538ae8e0a82ef7af63307dbf4881554afe00c63d8e1d3f888e76fc768b65fe2e0aa3e164d95a60cb0e5b6e53f466d37285531b1a17dca01a687928f9ea6734b1cf2b824818f7f1ea08e8cd711e6006e877c0ccb53319e11b0eb19e19728be5f54d791918d4880a3067868c6c4abf73d7bcbb118da20da635b9eabdcf9927f7d9209288fad08c4f7930c891bce2c41dbaff60dab417f55097129d39a541d9aa35bd359093b6aaa544b77f48021593909133fefde09f79f25358c3ad6f052b1fe4c1577f70071418392d455370f497831f2e3d7a7fae8c780b6234096255fa3e32cb80f2fdfa7e4c0226f13d4c065644512d9099d67fa09be4febf0989aa062fcfa7effcc62ebadeb6b6510615a0419b58571673d37d4cf3a7a48c143789f0b0d318a2fe43785e5a336cda21730bcda9a82e68c58748f3ff18dd9d62cda52</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这部分你得输密码.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">This blog is encrypted.</summary>
+    
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>研一下学期</title>
+    <link href="https://theforestbone.github.io/2023/03/26/%E9%A1%B9%E7%9B%AE%E6%83%B3%E6%B3%95/"/>
+    <id>https://theforestbone.github.io/2023/03/26/%E9%A1%B9%E7%9B%AE%E6%83%B3%E6%B3%95/</id>
+    <published>2023-03-26T06:35:49.761Z</published>
+    <updated>2023-03-27T02:00:40.551Z</updated>
+    
+    
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>腾讯云的静态网页托管</title>
+    <link href="https://theforestbone.github.io/2023/03/26/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/"/>
+    <id>https://theforestbone.github.io/2023/03/26/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9A%84%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/</id>
+    <published>2023-03-26T06:35:36.120Z</published>
+    <updated>2022-06-05T14:05:52.404Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于GitHub的访问速度较慢以及有时会卡字体无法显示，我早日便萌生了找国内代理网页托管的想法，一开始想找gitee，但是gitee审核就需要一天，而且网评并不是很好，于是转而投入了腾讯云的怀抱。腾讯云最近推出了静态页面托管(确实很好用)，可惜由于我搞不清静态页面index.html的具体配置，导致屡屡托管失败，最后感谢舍友张铂湛同志的指点迷津。终于恍然大悟，在此记录一下自己的蠢比行为和正确在腾讯云进行托管的具体操作：</p><span id="more"></span><blockquote><p>更新于2022/6/3：如果你使用腾讯云托管页面之后网页出现问题，请按F12控制台观察报错信息如果是jsdelivr报错，请在你的public文件的index.html文件中将最后的jsdelivr相关代码前面的cdn更改为fastly，因为jsdelivr最近被DNS污染了。具体如下：</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">\&lt;script size=<span class="string">"300"</span> alpha=<span class="string">"0.6"</span> zIndex=<span class="string">"-1"</span> src=<span class="string">"https://fastly.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"</span>&gt;</span><br><span class="line">\&lt;script src=<span class="string">"https://fastly.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"</span> integrity=<span class="string">"sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY="</span> crossorigin=<span class="string">"anonymous"</span>&gt;</span><br></pre></td></tr></table></figure><p>(以上是以我设置的ribbon和鼠标烟花特效为例)重新托管即可成功(网页部署可能需要2分钟的缓冲期，请不要因为你的网页没有光速布置好而生气)</p><h2 id="首先学会区别静态与动态网页">首先学会区别静态与动态网页</h2><p>静态页面可以包含动画或者动效(如果他们是来自你自己电脑的json文件),并不是说一动不动死气沉沉的才叫静态页面。但是如果你的静态页面的某个md/html/json/css文件包含了url链接(也就是说你在运行自己的网站的时候要从别的网站请求资源)，它就被称为动态页面。</p><p><strong>注意</strong>:</p><blockquote><p>大部分的托管网站是不会接受动态托管的因为网站要用自己的服务器发送你的网页，只会要求你把文件上传给他，然后该网站自己解析你的网页文件之后上传。如果你的网页编译时包含程序，数据库。那么就不能使用静态托管，但是可以考虑腾讯云的web应用托管。具体文档可以参考官方</p></blockquote><h2 id="如果你是hexo静态网页">如果你是hexo静态网页</h2><h3 id="准备工作">准备工作</h3><blockquote><p>1.拥有腾讯云账号；(此略)2.创建云开发环境，获得环境 ID；3.安装 Node.js；(此略)4.安装 Cloudbase CLI。</p></blockquote><h3 id="创建环境">创建环境</h3><p>打开腾讯云<a href="https://cloud.tencent.com/login?s_url=https%3A%2F%2Fconsole.cloud.tencent.com%2Ftcb%2Fhosting%2Findex%3FenvId%3Dwww-9gdsry1qee3f312d%26rid%3D4%26moduleName%3D%26tabId%3Dfile">官网</a>，注册，搜索静态页面托管，点击进入。你可以在左侧看到一栏其中包含：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ls:环境，静态网页托管，我的应用，拓展应用</span><br></pre></td></tr></table></figure><p>首先点击环境进行构建，点击新建，选择模板(空白模板即可)，之后输入环境名(无太大作用)，选择hexo配置，之后完成建造。注意你的环境名，腾讯云提供了复制按键。</p><h3 id="安装-Cloudbase-CLI">安装 Cloudbase CLI</h3><p>直接在命令终端进行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -g @cloudbase/cli</span><br></pre></td></tr></table></figure><p>然后输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cloudbase -v</span><br></pre></td></tr></table></figure><p>看到版本号说明安装成功之后在使用cloudbase命令时(cloudbase缩写为tcb)，可能会要求你进行登录，cmd会跳转到你的腾讯云网页，扫码登陆绑定即可。</p><h3 id="进行静态网页托管">进行静态网页托管</h3><p>点击静态网页托管，然后点击开启服务(过程持续3-5分钟)。回到你的hexo根目录，在这里构建一次网页</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>之后进入根目录下的public文件夹，在此git bash</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cloudbase hosting deploy . -e \&lt;你的环境名&gt;  <span class="comment"># 把你的该目录下的所有文件上传到了静态网页托管页面</span></span><br></pre></td></tr></table></figure><p>发现自己的静态网页托管界面(网页版)下出现你的public文件夹内的文件时，点击页面上的默认域名即可进入。配置成功。如果想更改域名，可以去腾讯云购买。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;由于GitHub的访问速度较慢以及有时会卡字体无法显示，我早日便萌生了找国内代理网页托管的想法，一开始想找gitee，但是gitee审核就需要一天，而且网评并不是很好，于是转而投入了腾讯云的怀抱。
+腾讯云最近推出了静态页面托管(确实很好用)，可惜由于我搞不清静态页面index.html的具体配置，导致屡屡托管失败，最后感谢舍友张铂湛同志的指点迷津。终于恍然大悟，在此记录一下自己的蠢比行为和正确在腾讯云进行托管的具体操作：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://theforestbone.github.io/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://theforestbone.github.io/tags/Hexo/"/>
+    
+    <category term="腾讯云" scheme="https://theforestbone.github.io/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/"/>
+    
+    <category term="网页托管" scheme="https://theforestbone.github.io/tags/%E7%BD%91%E9%A1%B5%E6%89%98%E7%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书摘-厌女：日本的女性嫌恶</title>
+    <link href="https://theforestbone.github.io/2023/03/26/%E4%B9%A6%E6%91%98-%E5%8E%8C%E5%A5%B3%EF%BC%9A%E6%97%A5%E6%9C%AC%E7%9A%84%E5%A5%B3%E6%80%A7%E5%AB%8C%E6%81%B6/"/>
+    <id>https://theforestbone.github.io/2023/03/26/%E4%B9%A6%E6%91%98-%E5%8E%8C%E5%A5%B3%EF%BC%9A%E6%97%A5%E6%9C%AC%E7%9A%84%E5%A5%B3%E6%80%A7%E5%AB%8C%E6%81%B6/</id>
+    <published>2023-03-26T06:35:36.117Z</published>
+    <updated>2023-01-02T13:58:57.467Z</updated>
+    
+    <content type="html"><![CDATA[<p>吉行淳之介的小说《砂石上的植物群》〔1985〕中有个情节：一个郁闷消沉的工薪族走投无路，便去找娼妓，在女人身上发泄“类似愤怒的感情”。</p><span id="more"></span><p>其实，娼妓本来就是为了方便发泄“类似愤怒的感情”而存在的。在吉行看来，女人就是一种不但不反抗，反而完全接受，甚至转换为自己的快乐的、方便无比的东西。女人被男人当作发泄郁闷愤怒的垃圾场，可如果那是女人自己想要的，甚至还很享受，男人就不必背负罪恶感了。而当女人“不再痛苦，发出欢喜的呻吟”时，男人又在心中感叹“女人这东西真是妖怪魔物”，由此将女人放逐到未知的世界里去。这样，男人便把女人双重地他者化了。</p><p>有些标榜反世俗姿态的所谓“性探索小说”，其情节展开与涩情文学的常规套路相似得令人吃惊。涩情文学的铁定规则是：第一，女人是诱惑者；第二，女人最后一定被快感支配。这种结构手法非常好懂。首先，“是女人先勾引我，可不是我的错”。男人的欲望由此得以免责。然后，即便是把不情愿的女人强行推倒在地的强奸，最后还是以女人的快感结局，仿佛在说：“怎么样，你不也有快感了吗？”好像女人的性器是可以把所有的痛苦和暴力都转换为快感的无底黑洞。为男性读者制作的涩情文学，最后终点不是男人的快感而是女人的快感，这个现象看似矛盾，其实根本不是什么谜。</p><p>摘自-&lt;厌女：日本的女性嫌恶&gt; -上野千鹤子</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;吉行淳之介的小说《砂石上的植物群》〔1985〕中有个情节：一个郁闷消沉的工薪族走投无路，便去找娼妓，在女人身上发泄“类似愤怒的感情”。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="书摘" scheme="https://theforestbone.github.io/categories/%E4%B9%A6%E6%91%98/"/>
+    
+    
+    <category term="书摘" scheme="https://theforestbone.github.io/tags/%E4%B9%A6%E6%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>科学，伪科学和非科学</title>
+    <link href="https://theforestbone.github.io/2023/03/26/%E7%A7%91%E5%AD%A6%EF%BC%8C%E4%BC%AA%E7%A7%91%E5%AD%A6%E5%92%8C%E9%9D%9E%E7%A7%91%E5%AD%A6/"/>
+    <id>https://theforestbone.github.io/2023/03/26/%E7%A7%91%E5%AD%A6%EF%BC%8C%E4%BC%AA%E7%A7%91%E5%AD%A6%E5%92%8C%E9%9D%9E%E7%A7%91%E5%AD%A6/</id>
+    <published>2023-03-26T06:35:36.115Z</published>
+    <updated>2023-01-02T14:13:54.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先我们要承认如下共识：</p><ul><li>本文的所有定义都是在如今的科学社会环境下，而科学的发展总是螺旋上升的，因此没有必要以上帝角度来评判某一件事物的对错。</li><li>很多争论的定义在此并不能得到完美解决，正如牛顿力学在微观和宏观高速运动情况下不适用一样，但我们也无法完全否定它一样。很多我们当今认为是基础的科学可能在未来被打破。<img src="https://s2.loli.net/2022/09/29/OQGl1A5dZV2KXv6.png" alt="Venn图.png"></li></ul><h2 id="科学的定义">科学的定义</h2><p>对于科学，人们的理解不外广义和狭义两种。</p><h3 id="广义的科学">广义的科学</h3><p>广义的科学包括：</p><ul><li>自然科学</li><li>人文社会科学</li><li>思维科学</li></ul><h3 id="狭义的科学">狭义的科学</h3><p>狭义的科学专指自然科学。而人文社会科学和思维科学则为非自然科学。</p><blockquote><p>简而言之，科学是人类能动的认识和改造外部世界的探索活动，是人类的一种特殊实践活动，它有其共同体，结构和建制。具有实验性探索性，理性和逻辑性等特征，并通过内部诸要素的相互作用形成完整的、不断发展的由定理，定律和理论等构成的实证知识体系。</p></blockquote><p>科学具有：</p><ol><li>客观具体性即一切以客观事实的观察为基础，对象是特殊的具体物质运动，反映的是客观事实和规律。</li><li>社会性即所有的科学实践，科学理论，都是在人类社会中进行，在人类社会中接受检验，并为整个社会服务。讲科学，首先不能脱离社会。</li><li>严谨性科学具有严谨性。要求得到的结论必须是正确的，认识的过程是系统而明晰的，逻辑结构严密，理论体系内部能够自治，前后联系，能够自圆其说，不相矛盾。</li></ol><h2 id="非科学的定义">非科学的定义</h2><p>非科学是指广义的科学之外的所有知识体系或观念<img src="https://s2.loli.net/2022/09/29/AzlcqeHEha7srf9.jpg" alt="religion.jpeg">例如</p><ul><li>形而上学</li><li>zong教</li><li>神学</li><li>灵学</li><li>占星术</li><li>mi信</li></ul><blockquote><p>非科学不具有或者不完全具有科学的特征。其研究对象要么是虚构的，要么是臆造的，要么是凭空想象的。（这一点会由历史长河来进行验证）</p></blockquote><ol><li>含义的模糊性也就是说，它的反对目标或对象难以准确定位。这种模糊性是由两方面的原因引起的:一是科学术语本身的模糊性导致反科学含义的模糊性;二是不同时期、不同流派的反对靶子有别，或者攻击的要害有异。</li><li>成员的庞杂性<br>其中既有普通大众，也有学界精英，而且他们意趣多端，政治和价值取向不尽相同，甚至截然对立的政治派别也会心照不宣，在反科学的旗帜下有意或无意地结为“神圣同盟”。与科学自身的复杂性相对应，科学的反对者们也是来自不同的立场和方面，具有几乎同样复杂的构成:来自不同立场、不同方面的反对者往往通过反对科学的某一方面进而反对科学自身。</li><li>本质上的反文化性这里的反文化性包含两层意思:一是科学（即使它的萌芽状态）作为一种异于传统文化的新兴文化，在某些方面往往与传统文化格格不入，从而受到固守旧传统的文化保守主义者的排斥和反对;二是一些人群或出于对主流文化的不满，或在现实文化出现危机之时，把科学当作替罪羊或“从犯”加以反对。前者在近代似乎表现得比较明显，后者在现代和后现代也许更为突出。</li></ol><p>然而非科学按照其完备程度和科学参与度分为系统性非科学和非系统性科学：</p><ul><li>形而上学和zong教具有较完备或者系统的知识体系。为系统性非科学。</li><li>神学，灵学，占星术等基本没有科学特征，体系也不完善。为非系统性科学。</li></ul><p>非科学并不是伪科学，只有在某种非科学冒充科学时才被称为伪科学：例如：</p><ul><li>永动机（法国人创造，法国人否定）</li><li>伪气功（伪气功大师王林）</li><li>科学算命 （数学骗术）</li></ul><h3 id="伪科学">伪科学</h3><p><img src="https://s2.loli.net/2022/09/29/O9uJ3cP6iyDT57t.jpg" alt="fake_science.jpg">伪科学也可以分为如下两种：</p><ol><li>传统伪科学</li><li>新生伪科学</li></ol><ul><li>传统伪科学：冒充科学的非系统性非科学，即由非科学转化而来的神学、灵学和mi信等。</li><li>新生伪科学指在新的历史条件下由于某种名利的诱引，为达到某种目的而产生的假科学或反科学，如科学算命、伪气功、永动机、水变油和 N射线等。</li></ul><p>新生伪科学以科学研究者面目出现，冒充科学成果，基本很难识别，是明知故犯的反科学行为。但是与科学理论相抵触或矛盾的新假说不能一概而论认为是伪科学，只能说为科学异端。</p><p><em>我们发现，非科学难以在当今的科学环境下被任意一种科学相证实，也就是说，他无法被当今科学界承认。</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;首先我们要承认如下共识：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;本文的所有定义都是在如今的科学社会环境下，而科学的发展总是螺旋上升的，因此没有必要以上帝角度来评判某一件事物的对错。&lt;/li&gt;
+&lt;li&gt;很多争论的定义在此并不能得到完美解决，正如牛顿力学在微观和宏观高速运动情况下不适用一样</summary>
+      
+    
+    
+    
+    <category term="哲学" scheme="https://theforestbone.github.io/categories/%E5%93%B2%E5%AD%A6/"/>
+    
+    
+    <category term="哲学" scheme="https://theforestbone.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>6-4日记</title>
+    <link href="https://theforestbone.github.io/2023/03/26/6-4%E9%9A%8F%E6%83%B3/"/>
+    <id>https://theforestbone.github.io/2023/03/26/6-4%E9%9A%8F%E6%83%B3/</id>
+    <published>2023-03-26T06:35:36.104Z</published>
+    <updated>2023-01-08T03:32:29.855Z</updated>
+    
+    <content type="html"><![CDATA[<p>前几日观赏了reuixiy大佬的博客](<a href="https://io-oi.me/">https://io-oi.me/</a>)，被其精美且小清新范的页面深深吸引了。今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格，加入图标报错等等。由于自己的js基础匮乏，除了更改渐变色成功之外并没有多大的收获。折腾了一上午之后才发现：NexT就是NexT，即使加入再好看的元素都不能掩盖其主题本质表达的简约美。于是我决定遵从极简原则，除了我的小猫以外，短期内不会加入任何东西，而是把精力放在学习身上。希望我在毕业之前能写出真正有价值的文章，并继续考虑自己的深造意愿。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;前几日观赏了reuixiy大佬的博客](&lt;a href=&quot;https://io-oi.me/&quot;&gt;https://io-oi.me/&lt;/a&gt;)，被其精美且小清新范的页面深深吸引了。
+今天准备在NexT主题上设置其同款渐变毛玻璃。但是出现了不少问题，比如不兼容整体NexT的风格</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="日记" scheme="https://theforestbone.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>研一下学期</title>
@@ -380,151 +517,6 @@
     
     
     <category term="Markdown" scheme="https://theforestbone.github.io/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown的相对目录引用</title>
-    <link href="https://theforestbone.github.io/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/"/>
-    <id>https://theforestbone.github.io/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/</id>
-    <published>2022-10-03T16:07:35.705Z</published>
-    <updated>2022-06-09T15:09:28.922Z</updated>
-    
-    <content type="html"><![CDATA[<p>Markdown的绝对目录引用可以去图床，各类图床可以在知乎上找到。分为付费和免费两种。Markdown的相对目录是从你引用图片的目录开始，按级别搜索，往上一级搜索是./，往下一级搜索是直接写/filename(你的文件夹名)。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Markdown的绝对目录引用可以去图床，各类图床可以在知乎上找到。分为付费和免费两种。
-Markdown的相对目录是从你引用图片的目录开始，按级别搜索，往上一级搜索是./，往下一级搜索是直接写/filename(你的文件夹名)。&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="Markdown" scheme="https://theforestbone.github.io/categories/Markdown/"/>
-    
-    
-    <category term="Markdown" scheme="https://theforestbone.github.io/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python的列表，元组，集合和词典</title>
-    <link href="https://theforestbone.github.io/2022/10/04/Python%E7%9A%84%E9%9B%86%E5%90%88%EF%BC%8C%E5%85%83%E7%BB%84%E7%AD%89/"/>
-    <id>https://theforestbone.github.io/2022/10/04/Python%E7%9A%84%E9%9B%86%E5%90%88%EF%BC%8C%E5%85%83%E7%BB%84%E7%AD%89/</id>
-    <published>2022-10-03T16:07:35.705Z</published>
-    <updated>2022-06-09T12:51:20.522Z</updated>
-    
-    <content type="html"><![CDATA[<p>早前接触过Python的时候就被这些定义搞得含混不清，但是不理解的事物会一直成为一个绊脚石。今天下定决心要将这些知识彻底搞懂吸收，故在此写下知识要点。</p><span id="more"></span><p>1.列表（List）是一种有序和可更改的集合。允许重复的成员。2.元组（Tuple）是一种有序且不可更改的集合。允许重复的成员。3.集合（Set）是一个无序和无索引的集合。没有重复的成员。4.词典（Dictionary）是一个无序，可变和有索引的集合。没有重复的成员。</p><h2 id="列表">列表</h2><h3 id="创建和索引">创建和索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">mylist = [<span class="string">'fuck'</span>,<span class="string">'this'</span>,<span class="string">'shit'</span>]</span><br><span class="line"><span class="built_in">print</span>(mylist) <span class="comment">#创建</span></span><br><span class="line"><span class="built_in">print</span>(mylist[1]) <span class="comment">#第一个元素序号是0</span></span><br><span class="line"><span class="built_in">print</span>(mylist[2:5]) <span class="comment">#索引范围</span></span><br><span class="line">mylist[1] = <span class="string">'you'</span> <span class="comment">#更改某一项</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> mylist:</span><br><span class="line">  <span class="built_in">print</span>(x) <span class="comment">#遍历列表</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">'shit'</span> <span class="keyword">in</span> mylist:</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">'Oh,yeah!'</span>)</span><br><span class="line">mylist.append(<span class="string">'she'</span>) <span class="comment">#追加项目</span></span><br><span class="line">mylist.insert(2,<span class="string">'bloody'</span>) <span class="comment">#插入项目</span></span><br><span class="line">mylist.remove(<span class="string">'fuck'</span>) <span class="comment">#删除指定项目</span></span><br><span class="line">del mylist[0] <span class="comment">#按索引删除，不加索引即删除整个列表</span></span><br><span class="line">mylist.clear() <span class="comment">#清空列表</span></span><br></pre></td></tr></table></figure><h3 id="复制列表">复制列表</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copylist = mylist.copy()</span><br></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">copylist = list(mylist)</span><br></pre></td></tr></table></figure><h3 id="合并列表">合并列表</h3><p>最简单的方式是使用+，如：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list3 = list1 + list2</span><br></pre></td></tr></table></figure><p>或者</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list1.extend(list2)</span><br></pre></td></tr></table></figure><p>总结：</p><table><thead><tr><th>方法</th><th>描述</th></tr></thead><tbody><tr><td>append()</td><td>在列表的末尾添加一个元素</td></tr><tr><td>clear()</td><td>删除列表中的所有元素</td></tr><tr><td>copy()</td><td>返回列表的副本</td></tr><tr><td>count()</td><td>返回具有指定值的元素数量。</td></tr><tr><td>extend()</td><td>将列表元素（或任何可迭代的元素）添加到当前列表的末尾</td></tr><tr><td>index()</td><td>返回具有指定值的第一个元素的索引</td></tr><tr><td>insert()</td><td>在指定位置添加元素</td></tr><tr><td>pop()</td><td>删除指定位置的元素</td></tr><tr><td>remove()</td><td>删除具有指定值的项目</td></tr><tr><td>reverse()</td><td>颠倒列表的顺序</td></tr><tr><td>sort()</td><td>对列表进行排序</td></tr></tbody></table><h2 id="元组">元组</h2><h3 id="创建和索引-2">创建和索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mytuple = (<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'cherry'</span>)</span><br><span class="line"><span class="built_in">print</span>(mytuple[1]) <span class="comment">#与列表类似</span></span><br></pre></td></tr></table></figure><h3 id="更改元组值">更改元组值</h3><p>需要将元组更改为列表：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x = (<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'cherry'</span>)</span><br><span class="line">y = list(x)</span><br><span class="line">y[1] = <span class="string">'kiwi'</span> <span class="comment">#转化为列表之后更改</span></span><br><span class="line">x = tuple(y)  <span class="comment">#转化回元组</span></span><br></pre></td></tr></table></figure><p>如果只需要创建有一个项目的元组，即单项元组，需要在之后加上逗号：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mytuple = (<span class="string">'apple'</span>,)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(mytuple))</span><br></pre></td></tr></table></figure><h4 id="注意：">注意：</h4><p>我们无法删除元组的项目，但是可以删除整个元组，使用del。</p><h2 id="集合">集合</h2><h3 id="创建与索引">创建与索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">myset = {<span class="string">'apple'</span>,<span class="string">'banana'</span>,<span class="string">'pear'</span>}</span><br></pre></td></tr></table></figure><p>集合是无序的</p><h3 id="添加项目">添加项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">myset.add(<span class="string">'orange'</span>) <span class="comment">#单个项目</span></span><br><span class="line">myset.update([<span class="string">'orange'</span>,<span class="string">'mango'</span>])</span><br></pre></td></tr></table></figure><table><thead><tr><th>方法</th><th>描述</th></tr></thead><tbody><tr><td>add()</td><td>向集合添加元素。</td></tr><tr><td>clear()</td><td>删除集合中的所有元素。</td></tr><tr><td>copy()</td><td>返回集合的副本。</td></tr><tr><td>difference()</td><td>返回包含两个或更多集合之间差异的集合。</td></tr><tr><td>difference_update()</td><td>删除此集合中也包含在另一个指定集合中的项目。</td></tr><tr><td>discard()</td><td>删除指定项目。</td></tr><tr><td>intersection()</td><td>返回为两个其他集合的交集的集合。</td></tr><tr><td>intersection_update()</td><td>删除此集合中不存在于其他指定集合中的项目。</td></tr><tr><td>isdisjoint()</td><td>返回两个集合是否有交集。</td></tr><tr><td>issubset()</td><td>返回另一个集合是否包含此集合。</td></tr><tr><td>issuperset()</td><td>返回此集合是否包含另一个集合。</td></tr><tr><td>pop()</td><td>从集合中删除一个元素。</td></tr><tr><td>remove()</td><td>删除指定元素。</td></tr><tr><td>symmetric_difference()</td><td>返回具有两组集合的对称差集的集合。</td></tr><tr><td>symmetric_difference_update()</td><td>插入此集合和另一个集合的对称差集。</td></tr><tr><td>union()</td><td>返回包含集合并集的集合。</td></tr><tr><td>update()</td><td>用此集合和其他集合的并集来更新集合。</td></tr></tbody></table><h2 id="字典">字典</h2><h3 id="创建与索引-2">创建与索引</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">mydict ={</span><br><span class="line">  <span class="string">"brand"</span>: <span class="string">"Porsche"</span>,</span><br><span class="line">  <span class="string">"model"</span>: <span class="string">"911"</span>,</span><br><span class="line">  <span class="string">"year"</span>: 1963</span><br><span class="line">}</span><br><span class="line"><span class="built_in">print</span>(mydict)</span><br><span class="line">x = mydict[<span class="string">"model"</span>]</span><br><span class="line">x = mydict.get(<span class="string">"model"</span>)  <span class="comment">#获取某个键对应的值</span></span><br></pre></td></tr></table></figure><h3 id="字典的嵌套">字典的嵌套</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">child1 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Phoebe Adele"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 2002</span><br><span class="line">}</span><br><span class="line">child2 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Jennifer Katharine"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 1996</span><br><span class="line">}</span><br><span class="line">child3 = {</span><br><span class="line">  <span class="string">"name"</span> : <span class="string">"Rory John"</span>,</span><br><span class="line">  <span class="string">"year"</span> : 1999</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">myfamily = {</span><br><span class="line">  <span class="string">"child1"</span> : child1,</span><br><span class="line">  <span class="string">"child2"</span> : child2,</span><br><span class="line">  <span class="string">"child3"</span> : child3</span><br><span class="line">}</span><br></pre></td></tr></table></figure><table><thead><tr><th>clear()</th><th>删除字典中的所有元素</th></tr></thead><tbody><tr><td>copy()</td><td>返回字典的副本</td></tr><tr><td>fromkeys()</td><td>返回拥有指定键和值的字典</td></tr><tr><td>get()</td><td>返回指定键的值</td></tr><tr><td>items()</td><td>返回包含每个键值对的元组的列表</td></tr><tr><td>keys()</td><td>返回包含字典键的列表</td></tr><tr><td>pop()</td><td>删除拥有指定键的元素</td></tr><tr><td>popitem()</td><td>删除最后插入的键值对</td></tr><tr><td>setdefault()</td><td>返回指定键的值。如果该键不存在，则插入具有指定值的键。</td></tr><tr><td>update()</td><td>使用指定的键值对字典进行更新</td></tr><tr><td>values()</td><td>返回字典中所有值的列表</td></tr></tbody></table>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;早前接触过Python的时候就被这些定义搞得含混不清，但是不理解的事物会一直成为一个绊脚石。今天下定决心要将这些知识彻底搞懂吸收，故在此写下知识要点。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Python" scheme="https://theforestbone.github.io/categories/Python/"/>
-    
-    
-    <category term="Python" scheme="https://theforestbone.github.io/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一些我喜欢的美剧分享</title>
-    <link href="https://theforestbone.github.io/2022/10/04/%E4%B8%80%E4%BA%9B%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BE%8E%E5%89%A7/"/>
-    <id>https://theforestbone.github.io/2022/10/04/%E4%B8%80%E4%BA%9B%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BE%8E%E5%89%A7/</id>
-    <published>2022-10-03T16:07:35.705Z</published>
-    <updated>2022-06-06T12:31:42.105Z</updated>
-    
-    <content type="html"><![CDATA[<p>恶搞之家，机器鸡以及间谍亚契等美剧你可以在<a href="https://mdsub.tk/mdunofficial/feaa315d17a640108aed34bf3c6dac4e">这里</a>找到。这是一家我很喜欢的字幕组。关于辛普森与美国老爹，Rick&amp;Morty等剧你可以在爱美剧或者PDD上找到相关资源，由于爱美剧的IP地址经常连接缓慢，我建议在PDD上购买或者通过正规渠道NetFlix(如果你可以Cross the wall的话)。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;恶搞之家，机器鸡以及间谍亚契等美剧你可以在&lt;a href=&quot;https://mdsub.tk/mdunofficial/feaa315d17a640108aed34bf3c6dac4e&quot;&gt;这里&lt;/a&gt;找到。这是一家我很喜欢的字幕组。
-关于辛普森与美国老爹，Rick&amp;amp;</summary>
-      
-    
-    
-    
-    <category term="生活" scheme="https://theforestbone.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-    
-    <category term="生活" scheme="https://theforestbone.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-    <category term="美剧" scheme="https://theforestbone.github.io/tags/%E7%BE%8E%E5%89%A7/"/>
-    
-    <category term="恶搞之家" scheme="https://theforestbone.github.io/tags/%E6%81%B6%E6%90%9E%E4%B9%8B%E5%AE%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>书摘-富爸爸穷爸爸</title>
-    <link href="https://theforestbone.github.io/2022/10/04/%E4%B9%A6%E6%91%98-%E7%A9%B7%E7%88%B8%E7%88%B8%E5%AF%8C%E7%88%B8%E7%88%B8/"/>
-    <id>https://theforestbone.github.io/2022/10/04/%E4%B9%A6%E6%91%98-%E7%A9%B7%E7%88%B8%E7%88%B8%E5%AF%8C%E7%88%B8%E7%88%B8/</id>
-    <published>2022-10-03T16:07:35.705Z</published>
-    <updated>2022-08-23T09:05:33.004Z</updated>
-    
-    <content type="html"><![CDATA[<p>富爸爸说，他们没有被钱收买，这是好事。大部分人却做不到这样，因为他们的人生被恐惧和贪婪控制。没钱的恐惧促使他们努力工作，得到酬劳后，贪婪又让他们想拥有所有用钱能买到的东西。这使他们需要更多的钱，也让他们花更多的钱。这就是富爸爸所说的“老鼠赛跑”。</p><span id="more"></span><blockquote><p>如果你们能看到一个机会，就注定你们会在一生中不断地发现机会。</p></blockquote><p>摘自-&lt;富爸爸穷爸爸&gt; -罗伯特·清崎</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;富爸爸说，他们没有被钱收买，这是好事。大部分人却做不到这样，因为他们的人生被恐惧和贪婪控制。没钱的恐惧促使他们努力工作，得到酬劳后，贪婪又让他们想拥有所有用钱能买到的东西。这使他们需要更多的钱，也让他们花更多的钱。这就是富爸爸所说的“老鼠赛跑”。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="书摘" scheme="https://theforestbone.github.io/categories/%E4%B9%A6%E6%91%98/"/>
-    
-    
-    <category term="书摘" scheme="https://theforestbone.github.io/tags/%E4%B9%A6%E6%91%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://theforestbone.github.io/2022/10/04/%E8%80%83%E7%A0%94%E6%84%9F%E6%83%B3/"/>
-    <id>https://theforestbone.github.io/2022/10/04/%E8%80%83%E7%A0%94%E6%84%9F%E6%83%B3/</id>
-    <published>2022-10-03T16:07:35.705Z</published>
-    <updated>2023-03-18T09:52:41.813Z</updated>
-    
-    <content type="html"><![CDATA[<hr><p>title: 考研感想与建议categories: 考研tags:</p><ul><li>考研top_img: /img/white_machine.pngcover: /img/chan.jpg</li></ul><hr><p>由于这是一篇经验贴，我会把个人的感情总结放在后面，你会在文章的最前面就能看到干货。</p><span id="more"></span><h2 id="报考院校与分数">报考院校与分数</h2><p>报考院校：山东大学金融研究院分数：</p><table><thead><tr><th>科目</th><th>分数</th></tr></thead><tbody><tr><td>政治</td><td>66</td></tr><tr><td>英二</td><td>82</td></tr><tr><td>432专业课</td><td>98</td></tr><tr><td>396经济学联考</td><td>121</td></tr><tr><td>总分</td><td>367</td></tr></tbody></table><p>初试排名30/38,复试排名24/30。本专业报考人数预估在140-160之间。</p><h2 id="个人基础与能力">个人基础与能力</h2><p>西南大学数学与统计学院统计系本科生，排名在37/60左右。GPA并不高，在专业并不算优等生。曾经在学生会工作，担任过辩论队副队长，参加过很多次大美赛但无果。(tips：大美赛获奖的关键或许不在你的理论模型，而在于你的可视化表达。)和我的队伍获得过一些辩论奖项，但与考研无关。</p><h2 id="考研准备工作">考研准备工作</h2><h3 id="院校和专业的确定">院校和专业的确定</h3><p>考研永远是选择大于努力的，学校的选择跟你高考时期的选择标准是一样的。我单方面认为城市的权重要大一些，其次是学校的牌子。C9或者大部分985的牌子到哪里都是响当当的，在该城市本地更是地位优越，校招时是一块香饽饽。此外关于专业，如果不是特别讨厌统计学，我的建议是不要轻易跨考。但也不是绝对，难度大一些罢了，详情可以咨询我的舍友张铂湛，他从统计学顺利跨考进入电子科技大学的计算机王牌专业。</p><h3 id="报录比和考试目录查询">报录比和考试目录查询</h3><p>不要去轻易相信百度的考研辅导机构。相关信息可以去一下网站找到：1.知乎经验贴，有的学姐会出售第一手考研资料，不过首先你要确认学姐真实身份，辅导机构一律跳过2.你要报考的学校的研究生招生网3.你要报考的学院的官网特别注意年份，有的学校会偷偷更改参考书目和考试科目，而只发一个小小的通知。(山东大学金融研究院就在2021年偷偷把数三换成了396，但这其实是统计学的一个大趋势)</p><h3 id="网课内容获取">网课内容获取</h3><p>资本主义方式：购买老师的正规网课，支持正版，价格在2000元左右。社会主义方式：拼多多购买百度网盘网课，价格在10元左右。</p><h2 id="考试各科目">考试各科目</h2><p>1.政治我用的是<strong>徐涛</strong>和<strong>肖秀荣</strong>，至于腿姐，我备考时从来没有去了解过。单方面认为跟老师只需要跟一到两个就行了，任何一个老师肯定有长处和短处，但是没必要因为老师某个板块不是那么突出而放弃他，因为就算是短板也一定比你我的基础强。肖秀荣教授的书仍然是第一首选，我的建议是当故事一样读，只需要了解大概，知道基本过程，有一个总体政治观念。其次徐涛的书显得备考性强，似乎是为了考点而出的书，优点在于实用性强，集成性强，缺点在于普适性弱，不适合想突破高分的同学。但是当你把两本书组合起来的时候，就可以根据徐涛的重点去肖秀荣的书上划知识点。取其精华，去其糟粕。</p><p>2.英语我从初中一直秉持的英语观念：当你沉浸在英语里，就会说英语了。我很喜欢接触英语，不仅体现在我网易云歌单里2000多首歌1900都是英文，更体现在我喜欢记住每一个美剧里不认识的单词。如果你想从美剧中练习英语，可以参考我博客里<a href="https://theforestbone.github.io/2022/06/04/%E4%B8%80%E4%BA%9B%E6%88%91%E5%96%9C%E6%AC%A2%E7%9A%84%E7%BE%8E%E5%89%A7/">一些我喜欢的美剧分享</a>。让自己沉浸在英语的环境中，是学习英语的诀窍，也是学习每一种语言的诀窍。如果你英语确实是短板，我建议多去了解一下美国或英国的历史，接触一下国外的信息。在中文的环境下只靠背单词是没有办法突破的。此外，背单词软件我推荐的是<strong>墨墨</strong>。</p><p>3.432专业课关于专业课，每个学校的参考书目都大不相同，有的考茆诗松有的考贾俊平，贾俊平的书更基础，所以考这本书的学校432分要高一些。茆诗松的书在于难度和深度，更难啃，但啃干净了收获也很大。我的专业课并不好，所以预估分数也不高，我们这一届由于题目难度增大，平均分从去年的130多到了今年的110多，而且今年山东大学出了一个超纲题目，15分，很多同学都没有做出来。也导致分数线下降不少。关于<strong>贾俊平</strong>的书，你可以去咨询我的老舍友郭汶朋，他今年上岸北京师范大学，专业考试的科目就是贾俊平和茆诗松的组合。关于<strong>茆诗松</strong>，我的建议是课后题一个一个啃，所有的统计学概念要记牢，但主体还是按照你们学校的大纲和往年试题来看。其他课本外的统计学基本常识要了解，比如聚类分析或者蒙特卡洛模拟。</p><p>4.396经济学联考这一部分原来是数三，但是经济学联考改革是大趋势，很多高校都率先进行了改革。也说明了统计学开始与实践接轨。396具体分为三部分：数学，逻辑与作文。1.数学部分大体内容与数三相似，不过题目难度下降了大约15%，我的建议是按照数三来复习。跟汤家凤就可以。张宇的题目难度较高，适合基础较好的同学进行再次拔高。2.逻辑部分是对于大部分同学而言崭新的区域，我跟的是<strong>赵鑫全</strong>老师，是逻辑学的老牌教师了。建议先刷题，20道逻辑题如果能对17-18个就可以先放一放，最后几个月再看一下。否则还是要跟着老师的网课走。3.作文部分分为大小作文，小作文是对一部分逻辑论证纠错，大作文是对一些时政或问题进行逻辑分析。大部分拉分差距都不在此，了解大致写作思路即可。</p><h2 id="其他">其他</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">不积跬步无以至千里，请不要把经验贴当做行动指南，任何人的经验贴都不能百分之百对他人适用。</span><br><span class="line">我本身不是那种学习的大佬，我希望你在阅读我的文章时抱着学习的态度而不是批判的眼光，智者也能从愚者身上学到乐观，况且我们都是学者。</span><br><span class="line">如果你还有想进一步与我讨论的问题，这是我的QQ：635974460。</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;title: 考研感想与建议
-categories: 考研
-tags:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;考研
-top_img: /img/white_machine.png
-cover: /img/chan.jpg&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;由于这是一篇经验贴，我会把个人的感情总结放在后面，你会在文章的最前面就能看到干货。&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>雅思考试相关</title>
-    <link href="https://theforestbone.github.io/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/"/>
-    <id>https://theforestbone.github.io/2022/10/04/%E9%9B%85%E6%80%9D%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/</id>
-    <published>2022-10-03T16:07:35.705Z</published>
-    <updated>2022-06-14T07:18:53.020Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近备考雅思和驾照，在此写下雅思考试的相关注意事项。</p><span id="more"></span><h1>考试时间和内容</h1><h2 id="时间">时间</h2><p>基本上每个月的周末都可以进行考试，分为两天，一天笔试(听力，阅读和写作)，一天口语面试。<img src="https://s2.loli.net/2022/06/14/prOfEQP5Fy2IvBh.jpg" alt="考试时间示例图"></p><h2 id="内容">内容</h2><h3 id="笔试">笔试</h3><blockquote><p>听力部分：时间是40分钟，30分钟考试，10分钟答题卡阅读部分：时间是60分钟，40道题目，3-4篇文章写作考试：时间是60分钟，分为大作文小作文</p></blockquote><h3 id="口语面试">口语面试</h3><blockquote><p>分为三部分：part1:基本生活对话part2:由题目发表2分钟讲话part3:在上一节基础上深入对话(可能有变动，要随机应变)</p></blockquote><h2 id="注意事项">注意事项</h2><p>笔试仍然沿用我的老方法，背单词+做真题+研读阅读题。口语部分只能是多读多写，辅导资料不用太多，遵循极简原则，一本书吃透即可。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;最近备考雅思和驾照，在此写下雅思考试的相关注意事项。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="雅思" scheme="https://theforestbone.github.io/categories/%E9%9B%85%E6%80%9D/"/>
-    
-    
-    <category term="雅思" scheme="https://theforestbone.github.io/tags/%E9%9B%85%E6%80%9D/"/>
     
   </entry>
   
