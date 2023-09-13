@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>对Xai的见解</title>
+      <link href="/2023/09/13/%E5%AF%B9Xai%E7%9A%84%E8%A7%81%E8%A7%A3/"/>
+      <url>/2023/09/13/%E5%AF%B9Xai%E7%9A%84%E8%A7%81%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="什么是Xai？">什么是Xai？</h2><p>马斯克如是说：</p><blockquote><p>xAI 将探索宇宙的本质，利用人工智能生成更深层次的问题，例如暗物质、费米悖论、外星人，并给出答案确认 xAI 与 OpenAI 和谷歌的竞争关系将用推特公开数据训练「最具好奇心」的人工智能xAI 将开发「理解物理世界而不仅是互联网」的技术，而特斯拉的驾驶数据或许有所帮助</p></blockquote><p>说白了，马斯克想让人工智能更牛一些，不仅仅局限于满足人类的自娱自乐（看不上chatGPT），而是突破去完成人类做不到的事情。</p><p>个人的看法，噱头占一大部分，理想很宏大，但值得肯定。可是在马斯克于美国时间7月14日下午开展的会议中，各种大牛的纷纷参与使得这件天马行空的事情变的有趣起来，有那么一瞬间，我似乎看到了AI突破Edge的希望。</p><p>更通俗的理解，xAI的根本使命可以被描述成：<strong>“这个世界到底是在咋运行的？（What the hell is really going on？）”</strong></p><p>题外话，马斯克在公开反对OpenAI的产品，大肆批判chatGPT对于社会可能的危害性后，自己偷偷购买了1万个GPU来进军AI领域。</p><p>xAI联合创始人杨格（Greg Yang）认为现在AI时代是一个全新神经网络的时代，这个时代与20世纪初发现物理学的量子物理学和广义相对论时代一样，背后的数学美丽而神秘。Jimmy Ba在介绍中也讲道，我们身处于深度学习革命的新浪潮之中，而xAI的目标则是搭建一个能够帮助人类解决系列重大问题的AGI。创始团队成员之一Kyle Kosic在直播中提到，他认为AI最大的危险是被几个公司垄断，这也是他对xAI感兴趣的原因。<img src="https://s2.loli.net/2023/09/13/xJBLnXOZyglUHpV.png" alt="Xai创始团队"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人工智能 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python金融量化分析-代码入门</title>
       <link href="/2023/08/31/Python%E9%87%91%E8%9E%8D%E9%87%8F%E5%8C%96%E5%88%86%E6%9E%90-%E4%BB%A3%E7%A0%81%E5%85%A5%E9%97%A8/"/>
       <url>/2023/08/31/Python%E9%87%91%E8%9E%8D%E9%87%8F%E5%8C%96%E5%88%86%E6%9E%90-%E4%BB%A3%E7%A0%81%E5%85%A5%E9%97%A8/</url>
