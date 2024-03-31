@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Normalizing Flows | 丁宇辰的个人BLOG</title><meta name="keywords" content="ding"><meta name="author" content="Yuchen Ding"><meta name="copyright" content="Yuchen Ding"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="学习复杂数据的表示是机器学习中的一个基本问题。这项任务的重要性在于大量非结构化和未标记数据的可用性，这些数据只能通过无监督学习来理解。 其可以应用于密度估计、异常值检测、文本摘要、数据聚类、生物信息学、DNA建模等。 我们常用的学习数据分布的方法是生成对抗性网络（GANs）、变分自动编码器（VAE）和归一化流（Normalizing Flows）。 GANs和VAE在学习复杂的数据分布方面就效果来">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Normalizing Flows | 丁宇辰的个人BLOG</title><meta name="keywords" content="ding"><meta name="author" content="Yuchen Ding"><meta name="copyright" content="Yuchen Ding"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="学习复杂数据的表示是机器学习中的一个基本问题。这项任务的重要性在于大量非结构化和未标记数据的可用性，这些数据只能通过无监督学习来理解。 其可以应用于密度估计、异常值检测、文本摘要、数据聚类、生物信息学、DNA建模等。 我们常用的学习数据分布的方法是生成对抗性网络（GANs）、变分自动编码器（VAE）和归一化流（Normalizing Flows）。 GANs和VAE在学习复杂的数据分布方面就效果来">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Normalizing Flows">
 <meta property="og:url" content="https://theforestbone.github.io/2023/11/10/Normalizing%20Flows/index.html">
@@ -11,7 +11,7 @@
 <meta property="article:author" content="Yuchen Ding">
 <meta property="article:tag" content="ding">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://theforestbone.github.io/img/skyscraper.png"><link rel="shortcut icon" href="/img/sea_girl_title.jpg"><link rel="canonical" href="https://theforestbone.github.io/2023/11/10/Normalizing%20Flows/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+<meta name="twitter:image" content="https://theforestbone.github.io/img/skyscraper.png"><link rel="shortcut icon" href="/img/sea_girl_title.jpg"><link rel="canonical" href="https://theforestbone.github.io/2023/11/10/Normalizing%20Flows/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
@@ -119,7 +119,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
       const t = saveToLocal.get('theme')
