@@ -558,11 +558,11 @@
     
     
     <entry>
-      <title>Markdown的相对目录引用</title>
-      <link href="/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/"/>
-      <url>/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/</url>
+      <title>Markdown的一些注解</title>
+      <link href="/2022/10/04/Markdown%E7%9A%84html%E6%B3%A8%E8%A7%A3/"/>
+      <url>/2022/10/04/Markdown%E7%9A%84html%E6%B3%A8%E8%A7%A3/</url>
       
-        <content type="html"><![CDATA[<p>Markdown的绝对目录引用可以去图床，各类图床可以在知乎上找到。分为付费和免费两种。Markdown的相对目录是从你引用图片的目录开始，按级别搜索，往上一级搜索是./，往下一级搜索是直接写/filename(你的文件夹名)。</p>]]></content>
+        <content type="html"><![CDATA[<p>Markdown中对html的引用(html不参与编译过程，只是单纯的展示)：例如对于&lt;li&gt;…&lt;li&gt;进行展示，只需要对源文件中的&lt;前加上\即可。因为Markdown文件对于&gt;没有特殊歧义。如果要对大量html文件进行展示，在vscode中进行ctrl+F，ctrl+alt+enter全部查找和替换即可。最后效果如下：</p><blockquote><p>&lt;html&gt;…&lt;/html&gt; 是网页的根元素&lt;head&gt;…&lt;/head&gt; 元素包含了文档的元(meta)数据</p></blockquote>]]></content>
       
       
       <categories>
@@ -583,11 +583,11 @@
     
     
     <entry>
-      <title>Markdown的一些注解</title>
-      <link href="/2022/10/04/Markdown%E7%9A%84html%E6%B3%A8%E8%A7%A3/"/>
-      <url>/2022/10/04/Markdown%E7%9A%84html%E6%B3%A8%E8%A7%A3/</url>
+      <title>Markdown的相对目录引用</title>
+      <link href="/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/"/>
+      <url>/2022/10/04/Markdown%E7%9A%84%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%BC%95%E7%94%A8/</url>
       
-        <content type="html"><![CDATA[<p>Markdown中对html的引用(html不参与编译过程，只是单纯的展示)：例如对于&lt;li&gt;…&lt;li&gt;进行展示，只需要对源文件中的&lt;前加上\即可。因为Markdown文件对于&gt;没有特殊歧义。如果要对大量html文件进行展示，在vscode中进行ctrl+F，ctrl+alt+enter全部查找和替换即可。最后效果如下：</p><blockquote><p>&lt;html&gt;…&lt;/html&gt; 是网页的根元素&lt;head&gt;…&lt;/head&gt; 元素包含了文档的元(meta)数据</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<p>Markdown的绝对目录引用可以去图床，各类图床可以在知乎上找到。分为付费和免费两种。Markdown的相对目录是从你引用图片的目录开始，按级别搜索，往上一级搜索是./，往下一级搜索是直接写/filename(你的文件夹名)。</p>]]></content>
       
       
       <categories>
